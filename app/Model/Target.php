@@ -1,0 +1,47 @@
+<?php
+App::uses('AppModel', 'Model');
+/**
+ * Target Model
+ *
+ * @property Measure $Measure
+ */
+class Target extends AppModel {
+  
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * belongsTo associations
+ *
+ * @var array
+ */
+	public $belongsTo = array(
+		'Period' => array(
+			'className' => 'Period',
+			'foreignKey' => 'period_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+                'Office' => array(
+			'className' => 'Office',
+			'foreignKey' => 'office_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'Measure' => array(
+			'className' => 'Measure',
+			'foreignKey' => 'measure_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+              'Objective' => array(
+			'className' => 'Objective',
+			'foreignKey' => 'objective_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		);
+}

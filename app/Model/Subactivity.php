@@ -1,0 +1,66 @@
+<?php
+class subactivity extends AppModel {
+
+	var $name = 'subactivity';
+        public $validate =array(
+               'sub_activity'=>array(
+                   'minLength'=>array(
+                        'rule'=>'notEmpty',
+                        'message'=>'You must fill in the  Subactivity name'),
+                    'custom'=>array(
+                        'rule'=>array('custom','/^[a-zA-Z][a-zA-Z ]*$/'),
+                        'message'=>'The Subactivity name shuld only contains alpahapets')),
+                'weight'=>array(
+                  'minLength'=>array(
+                        'rule'=>'notEmpty',
+                        'message'=>'You must fill in the Activity weight'),                      
+                    'custom'=>array(
+                        'rule'=>array('custom','/^[0-9][0-9,.]*$/'),
+                        'message'=>'The Activity weight shuld only contains number'),
+                      
+                     ));
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+	var $belongsTo = array(
+		'Majoractivity' => array(
+			'className' => 'Majoractivity',
+			'foreignKey' => 'majoractivity_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+             'Period' => array(
+			'className' => 'Period',
+			'foreignKey' => 'period_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+            
+	);
+       
+	/*var $hasMany = array(
+		'Activity' => array(
+			'className' => 'Activity',
+			'foreignKey' => 'activity_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);*/
+    public function calculateTheWeight($Activweight,$ActivId,$wigh){
+        $allWeights=$this->findAllByMajoractivityId($ActivId);
+      $total=0;
+      foreach($allWeights as $weighta):
+      $total=$total+$weighta['Subactivity']['weight'];
+      endforeach;
+     if(($total+$wigh)<=$Activweight) return true;
+     else return false;
+      }
+}
+?>

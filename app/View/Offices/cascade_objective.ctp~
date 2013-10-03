@@ -1,0 +1,32 @@
+<h2><?php echo __('Cascade Objective'); ?></h2>
+<?php echo $this->Form->create('Office'); ?>
+	
+	<?php
+		echo $this->Form->input('id');
+		
+		//echo $this->Form->input('Objective',array('size' => 10));
+		echo $this->Form->input('Objective',array(
+            'type' => 'select',
+            'multiple' => true,
+            'label' => "Objective (Select multiple entries with CTRL)",
+            'size' => 10//count($groups)
+	?>
+	
+<?php echo $this->Form->end(__('Submit')); ?>
+<hr> 
+<h3>Cascaded Objectives</h3>
+<hr>
+<table><tr>
+	<th>Office Name</th>
+	<th>Objective Name<th>
+	</tr>
+	
+      <?php  if($rows)
+                   
+              foreach ($rows as $row): ?>
+                <tr>  <td><?php echo $row['of']['office_name'].' Office' ?></td>
+			<td><?php echo $row['o']['objective_name'] ?></td>
+		<tr>
+		<?php endforeach;?>
+
+</table>

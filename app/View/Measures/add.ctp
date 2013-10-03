@@ -1,0 +1,16 @@
+<h2><?php echo __('Add Measure'); ?></h2>
+<?php echo $this->Form->create('Measure'); ?>
+	
+		
+	<table class="input-table">
+        <tr><td><?php echo $this->Form->input('objective_id');?></td> <td><?php echo $this->Form->input('unit_id'); ?> </td> <td> <?php echo $this->Form->input('frequency_id'); ?></td> </tr>
+	<tr><td> <?php echo $this->Form->input('measure_name'); ?></td><td> <?php echo $this->Form->input('measure_type'); ?></td><td> <?php echo $this->Form->input('measure_weight'); ?></td>
+                </tr>
+    <tr><td> <?php echo $this->Form->input('formula',array('rows'=>'2')); ?></td> <td><?php echo $this->Form->input('polarity'); ?> </td><td> <?php echo $this->Form->input('baseline');  ?></td> </tr>
+		
+		<td> <?php echo $this->Form->input('data_source',array('rows'=>'2')); ?></td>  <td> <?php echo $this->Form->input('data_quality',array('rows'=>'2')); ?></td> <td > <?php echo $this->Form->input('data_collector');  ?></td> </tr>
+   <tr><td colspan=2> <?php echo $this->Form->input('description',array('rows'=>'2')); ?></td>  
+		<td ><?php echo $this->Form->input('rationalie',array('rows'=>'2')); ?></td> </tr>
+		<tr><td> <?php echo $this->Form->end(__('Submit')); ?> </td> <td class="actions"><li><?php echo $this->Html->link(__('List Measures'), array('action' => 'index')); ?></li></td> </tr>
+	</table>
+	

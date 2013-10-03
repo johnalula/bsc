@@ -1,0 +1,50 @@
+<h2>Perspectives in Pie3D Chart</h2>
+<?php
+/**
+	CakePHP FusionCharts Plugin
+
+	Copyright (C) 2009-3827 dr. Hannibal Lecter / lecterror
+	<http://lecterror.com/>
+
+	Multi-licensed under:
+		MPL <http://www.mozilla.org/MPL/MPL-1.1.html>
+		LGPL <http://www.gnu.org/licenses/lgpl.html>
+		GPL <http://www.gnu.org/licenses/gpl.html>
+*/
+?>
+
+<div>
+<form name ="form1" action = "pie3d" method = "post">
+<select name = "chart_id" id = "chart_id" onChange="this.form.submit()">
+  <option value="">Select Graph Type</option>
+  <option value="pie3d">Pie 3D</option>
+  <option value="pie2d">Pie 2D</option>
+  <option value="column3d">Column 3D</option>
+  <option value="column2d">Column 2D</option>
+  <option value="area2d">Area 2D</option>
+  <option value="bar2d">Bar 2D</option>
+  
+</select>
+</form>
+</div>
+<div class="chart">	
+	<?php echo $this->FusionCharts->render('Pie3D Chart'); ?>
+</div>
+<?php echo $this->Html->link(__('List Perspective'), array('action' => 'index')); ?>
+<?php
+$this->Js->get('#PerspectiveChartId')->event('change', 
+	$this->Js->request(array(
+		'controller'=>'perspectives',
+		'action'=>'pie3d'
+		), array(
+		'update'=>'#PerspectivePchart',
+		'async' => true,
+		'method' => 'post',
+		'dataExpression'=>true,
+		'data'=> $this->Js->serializeForm(array(
+			'isForm' => true,
+			'inline' => true
+			))
+		))
+	);
+?>

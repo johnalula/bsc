@@ -1,0 +1,104 @@
+<?php
+App::uses('AppController', 'Controller');
+/**
+ * Behaviorevaluationcriterias Controller
+ *
+ * @property Behaviorevaluationcriteria $Behaviorevaluationcriteria
+ */
+class BehaviorevaluationcriteriasController extends AppController {
+
+/**
+ * index method
+ *
+ * @return void
+ */
+	public function index() {
+		$this->Behaviorevaluationcriteria->recursive = 0;
+		$this->set('behaviorevaluationcriterias', $this->paginate());
+	}
+
+/**
+ * view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function view($id = null) {
+		$this->Behaviorevaluationcriteria->id = $id;
+		if (!$this->Behaviorevaluationcriteria->exists()) {
+			throw new NotFoundException(__('Invalid behaviorevaluationcriteria'));
+		}
+		$this->set('behaviorevaluationcriteria', $this->Behaviorevaluationcriteria->read(null, $id));
+	}
+
+/**
+ * add method
+ *
+ * @return void
+ */
+	public function add() {
+		if ($this->request->is('post')) {
+			$this->Behaviorevaluationcriteria->create();
+			if ($this->Behaviorevaluationcriteria->save($this->request->data)) {
+				$this->Session->setFlash(__('The behaviorevaluationcriteria has been saved'));
+				$this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The behaviorevaluationcriteria could not be saved. Please, try again.'));
+			}
+		}
+   $years=array();
+           for($i=6;$i<11;$i++){
+              $years[date('Y')-$i]=date('Y')-$i;
+             }
+  	$year = $years;
+	}
+
+/**
+ * edit method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function edit($id = null) {
+		$this->Behaviorevaluationcriteria->id = $id;
+		if (!$this->Behaviorevaluationcriteria->exists()) {
+			throw new NotFoundException(__('Invalid behaviorevaluationcriteria'));
+		}
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->Behaviorevaluationcriteria->save($this->request->data)) {
+				$this->Session->setFlash(__('The behaviorevaluationcriteria has been saved'));
+				$this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The behaviorevaluationcriteria could not be saved. Please, try again.'));
+			}
+		} else {
+			$this->request->data = $this->Behaviorevaluationcriteria->read(null, $id);
+		}
+	}
+
+/**
+ * delete method
+ *
+ * @throws MethodNotAllowedException
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function delete($id = null) {
+		if (!$this->request->is('post')) {
+			throw new MethodNotAllowedException();
+		}
+		$this->Behaviorevaluationcriteria->id = $id;
+		if (!$this->Behaviorevaluationcriteria->exists()) {
+			throw new NotFoundException(__('Invalid behaviorevaluationcriteria'));
+		}
+		if ($this->Behaviorevaluationcriteria->delete()) {
+			$this->Session->setFlash(__('Behaviorevaluationcriteria deleted'));
+			$this->redirect(array('action' => 'index'));
+		}
+		$this->Session->setFlash(__('Behaviorevaluationcriteria was not deleted'));
+		$this->redirect(array('action' => 'index'));
+	}
+}

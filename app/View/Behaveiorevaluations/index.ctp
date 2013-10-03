@@ -1,0 +1,16 @@
+<h2><?php echo __('Behaveiorevaluations'); ?></h2>
+	<div class="paging">
+	<?php echo $this->Html->link(__('Self'), array('action' => 'self')); ?>
+	
+	</div>
+<p>
+	<?php echo $this->Html->link(__('peer'), array('action' => 'pear')); ?>
+</p>
+<div class="paging">
+	<?php echo $this->Html->link(__('Head'), array('action' => 'head')); ?>
+	
+	</div>
+<div class="actions" style="margin-top='300px'" >
+	<?php echo $this->Html->link(__('Show'), array('action' => 'show')); ?>
+	<?php echo $this->Html->link(__('Assign'), array('action' => 'add')); ?>
+</div>

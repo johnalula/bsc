@@ -1,0 +1,50 @@
+<?php
+App::uses('AppModel', 'Model');
+/**
+ * Project Model
+ *
+ * @property Initiative $Initiative
+ * @property Projecttask $Projecttask
+ */
+class Project extends AppModel {
+  var $displayField='project_name';
+
+	//The Associations below have been created with all possible keys, those that are not needed can be removed
+
+/**
+ * belongsTo associations
+ *
+ * @var array
+ */
+	public $belongsTo = array(
+		'Initiative' => array(
+			'className' => 'Initiative',
+			'foreignKey' => 'initiative_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		)
+	);
+
+/**
+ * hasMany associations
+ *
+ * @var array
+ */
+	public $hasMany = array(
+		'ProjectsTask' => array(
+			'className' => 'ProjectsTask',
+			'foreignKey' => 'project_id',
+			'dependent' => false,
+			'conditions' => '',
+			'fields' => '',
+			'order' => '',
+			'limit' => '',
+			'offset' => '',
+			'exclusive' => '',
+			'finderQuery' => '',
+			'counterQuery' => ''
+		)
+	);
+
+}

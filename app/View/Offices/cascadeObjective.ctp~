@@ -1,0 +1,14 @@
+<h2><?php echo __('Edit Office'); ?></h2>
+<?php echo $this->Form->create('Office'); ?>
+	<fieldset>
+		
+	<?php
+		echo $this->Form->input('id');
+		echo $this->Form->input('office_name');
+		echo $this->Form->input('office_id');
+		echo $this->Form->input('organization_id');
+		echo $this->Form->input('Objective');
+	?>
+	</fieldset>
+<?php echo $this->Form->end(__('Submit')); ?>
+</div>

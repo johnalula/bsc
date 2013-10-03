@@ -1,0 +1,141 @@
+<?php
+App::uses('AppController', 'Controller');
+/**
+ * Targets Controller
+ *
+ * @property Target $Target
+ */
+class TargetsController extends AppController {
+public $helpers = array('Js');
+/**
+ * index method
+ *
+ * @return void
+ */
+	public function index() {
+		$this->Target->recursive = 0;
+		$this->set('targets', $this->paginate());
+	}
+
+/**
+ * view method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function view($id = null) {
+		$this->Target->id = $id;
+		if (!$this->Target->exists()) {
+			throw new NotFoundException(__('Invalid target'));
+		}
+		$this->set('target', $this->Target->read(null, $id));
+	}
+
+/**
+ * add method
+ *
+ * @return void
+ */
+	public function add() {
+		if ($this->request->is('post')) {
+			$this->Target->create();
+                       $this->request->data['Target']['office_id'] = $this->UserAuth->getUserOfficeId();  
+			if ($this->Target->save($this->request->data)) {
+				$this->Session->setFlash(__('The target has been saved'));
+				$this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The target could not be saved. Please, try again.'));
+			}
+		}
+                $years=array();
+           for($i=6;$i<11;$i++){
+              $years[date('Y')-$i]=date('Y')-$i;
+             }
+  	$year = $years;
+		//$measures = $this->Target->Measure->find('list');
+                $periods = $this->Target->Period->find('list');
+                $objecti = $this->Target->query('SELECT Objective.id, Objective.objective_name, ObjectivesOffice.objective_id FROM objectives AS Objective,  objectives_offices As ObjectivesOffice WHERE Objective.id = ObjectivesOffice.objective_id AND ObjectivesOffice.office_id = 6');
+		
+$objectives=array();
+ foreach($objecti as $obj):
+	$objectives[$obj['Objective']['id']]=$obj['Objective']['objective_name'];
+  endforeach;
+
+		$this->set('objectives',$objecti);
+		$this->set(compact('periods','year','objectives'));
+                
+	}
+
+/**
+ * edit method
+ *
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function edit($id = null) {
+		$this->Target->id = $id;
+		if (!$this->Target->exists()) {
+			throw new NotFoundException(__('Invalid target'));
+		}
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->Target->save($this->request->data)) {
+				$this->Session->setFlash(__('The target has been saved'));
+				$this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The target could not be saved. Please, try again.'));
+			}
+		} else {
+			$this->request->data = $this->Target->read(null, $id);
+		}
+                $years=array();
+           for($i=6;$i<11;$i++){
+              $years[date('Y')-$i]=date('Y')-$i;
+             }
+  	$year = $years;
+		$measures = $this->Target->Measure->find('list');
+                $periods = $this->Target->Period->find('list');
+                $objectives = $this->Target->Objective->find('list');
+		$this->set(compact('measures','objectives','periods','year'));
+	}
+ public function actual($id = null) {
+		$this->Target->id = $id;
+		if (!$this->Target->exists()) {
+			throw new NotFoundException(__('Invalid target'));
+		}
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->Target->save($this->request->data)) {
+				$this->Session->setFlash(__('The target has been saved'));
+				$this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The target could not be saved. Please, try again.'));
+			}
+		} else {
+			$this->request->data = $this->Target->read(null, $id);
+		}
+}
+/**
+ * delete method
+ *
+ * @throws MethodNotAllowedException
+ * @throws NotFoundException
+ * @param string $id
+ * @return void
+ */
+	public function delete($id = null) {
+		if (!$this->request->is('post')) {
+			throw new MethodNotAllowedException();
+		}
+		$this->Target->id = $id;
+		if (!$this->Target->exists()) {
+			throw new NotFoundException(__('Invalid target'));
+		}
+		if ($this->Target->delete()) {
+			$this->Session->setFlash(__('Target deleted'));
+			$this->redirect(array('action' => 'index'));
+		}
+		$this->Session->setFlash(__('Target was not deleted'));
+		$this->redirect(array('action' => 'index'));
+	}
+}

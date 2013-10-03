@@ -1,0 +1,2448 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-02-04 22:11+0300\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ActivitiesController.php:14
+msgid "Invalid Activity."
+msgstr ""
+
+#: Controller/ActivitiesController.php:24
+msgid "The Activity has been saved"
+msgstr ""
+
+#: Controller/ActivitiesController.php:27
+msgid "The Activity could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ActivitiesController.php:41;45
+msgid "Invalid Activity"
+msgstr ""
+
+#: Controller/ActivitiesController.php:68
+msgid "Invalid id for Activity"
+msgstr ""
+
+#: Controller/ActivitiesController.php:72
+msgid "Activity deleted"
+msgstr ""
+
+#: Controller/ActivitymonthsController.php:14
+msgid "Invalid Activitymonth."
+msgstr ""
+
+#: Controller/ActivitymonthsController.php:24;42
+msgid "The Activitymonth has been saved"
+msgstr ""
+
+#: Controller/ActivitymonthsController.php:27;45
+msgid "The Activitymonth could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ActivitymonthsController.php:37
+msgid "Invalid Activitymonth"
+msgstr ""
+
+#: Controller/ActivitymonthsController.php:58
+msgid "Invalid id for Activitymonth"
+msgstr ""
+
+#: Controller/ActivitymonthsController.php:62
+msgid "Activitymonth deleted"
+msgstr ""
+
+#: Controller/Approvemonthlyactivities_controller.php:14
+msgid "Invalid Approvemonthlyactivity."
+msgstr ""
+
+#: Controller/Approvemonthlyactivities_controller.php:24;39
+msgid "The Approvemonthlyactivity has been saved"
+msgstr ""
+
+#: Controller/Approvemonthlyactivities_controller.php:27;42
+msgid "The Approvemonthlyactivity could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/Approvemonthlyactivities_controller.php:34
+msgid "Invalid Approvemonthlyactivity"
+msgstr ""
+
+#: Controller/Approvemonthlyactivities_controller.php:52
+msgid "Invalid id for Approvemonthlyactivity"
+msgstr ""
+
+#: Controller/Approvemonthlyactivities_controller.php:56
+msgid "Approvemonthlyactivity deleted"
+msgstr ""
+
+#: Controller/InitiativesController.php:14
+msgid "Invalid Initiative."
+msgstr ""
+
+#: Controller/InitiativesController.php:24;41
+msgid "The Initiative has been saved"
+msgstr ""
+
+#: Controller/InitiativesController.php:27;44
+msgid "The Initiative could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/InitiativesController.php:36
+msgid "Invalid Initiative"
+msgstr ""
+
+#: Controller/InitiativesController.php:56
+msgid "Invalid id for Initiative"
+msgstr ""
+
+#: Controller/InitiativesController.php:60
+msgid "Initiative deleted"
+msgstr ""
+
+#: Controller/MeasuresController.php:14
+msgid "Invalid Measure."
+msgstr ""
+
+#: Controller/MeasuresController.php:24;42
+msgid "The Measure has been saved"
+msgstr ""
+
+#: Controller/MeasuresController.php:27;45
+msgid "The Measure could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MeasuresController.php:37
+msgid "Invalid Measure"
+msgstr ""
+
+#: Controller/MeasuresController.php:58
+msgid "Invalid id for Measure"
+msgstr ""
+
+#: Controller/MeasuresController.php:62
+msgid "Measure deleted"
+msgstr ""
+
+#: Controller/MeasuringunitsController.php:14
+msgid "Invalid Measuringunit."
+msgstr ""
+
+#: Controller/MeasuringunitsController.php:24;39
+msgid "The Measuringunit has been saved"
+msgstr ""
+
+#: Controller/MeasuringunitsController.php:27;42
+msgid "The Measuringunit could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MeasuringunitsController.php:34
+msgid "Invalid Measuringunit"
+msgstr ""
+
+#: Controller/MeasuringunitsController.php:52
+msgid "Invalid id for Measuringunit"
+msgstr ""
+
+#: Controller/MeasuringunitsController.php:56
+msgid "Measuringunit deleted"
+msgstr ""
+
+#: Controller/MonthlyactivityplansController.php:14
+msgid "Invalid Monthlyactivityplan."
+msgstr ""
+
+#: Controller/MonthlyactivityplansController.php:24;45
+msgid "The Monthlyactivityplan has been saved"
+msgstr ""
+
+#: Controller/MonthlyactivityplansController.php:27;48
+msgid "The Monthlyactivityplan could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/MonthlyactivityplansController.php:40
+msgid "Invalid Monthlyactivityplan"
+msgstr ""
+
+#: Controller/MonthlyactivityplansController.php:64
+msgid "Invalid id for Monthlyactivityplan"
+msgstr ""
+
+#: Controller/MonthlyactivityplansController.php:68
+msgid "Monthlyactivityplan deleted"
+msgstr ""
+
+#: Controller/NewsController.php:14
+msgid "Invalid News."
+msgstr ""
+
+#: Controller/NewsController.php:24;39
+msgid "The News has been saved"
+msgstr ""
+
+#: Controller/NewsController.php:27;42
+msgid "The News could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/NewsController.php:34
+msgid "Invalid News"
+msgstr ""
+
+#: Controller/NewsController.php:52
+msgid "Invalid id for News"
+msgstr ""
+
+#: Controller/NewsController.php:56
+msgid "News deleted"
+msgstr ""
+
+#: Controller/ObjectivecascadedsController.php:14
+msgid "Invalid Objectivecascaded."
+msgstr ""
+
+#: Controller/ObjectivecascadedsController.php:24;43
+msgid "The Objectivecascaded has been saved"
+msgstr ""
+
+#: Controller/ObjectivecascadedsController.php:27;46
+msgid "The Objectivecascaded could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ObjectivecascadedsController.php:38
+msgid "Invalid Objectivecascaded"
+msgstr ""
+
+#: Controller/ObjectivecascadedsController.php:60
+msgid "Invalid id for Objectivecascaded"
+msgstr ""
+
+#: Controller/ObjectivecascadedsController.php:64
+msgid "Objectivecascaded deleted"
+msgstr ""
+
+#: Controller/ObjectivesController.php:14
+msgid "Invalid Objective."
+msgstr ""
+
+#: Controller/ObjectivesController.php:24;41
+msgid "The Objective has been saved"
+msgstr ""
+
+#: Controller/ObjectivesController.php:27;44
+msgid "The Objective could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ObjectivesController.php:36
+msgid "Invalid Objective"
+msgstr ""
+
+#: Controller/ObjectivesController.php:56
+msgid "Invalid id for Objective"
+msgstr ""
+
+#: Controller/ObjectivesController.php:60
+msgid "Objective deleted"
+msgstr ""
+
+#: Controller/OfficesController.php:14
+msgid "Invalid Office."
+msgstr ""
+
+#: Controller/OfficesController.php:24;39
+msgid "The Office has been saved"
+msgstr ""
+
+#: Controller/OfficesController.php:27;42
+msgid "The Office could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/OfficesController.php:34
+msgid "Invalid Office"
+msgstr ""
+
+#: Controller/OfficesController.php:52
+msgid "Invalid id for Office"
+msgstr ""
+
+#: Controller/OfficesController.php:56
+msgid "Office deleted"
+msgstr ""
+
+#: Controller/PeriodlookupsController.php:14
+msgid "Invalid Periodlookup."
+msgstr ""
+
+#: Controller/PeriodlookupsController.php:24;41
+msgid "The Periodlookup has been saved"
+msgstr ""
+
+#: Controller/PeriodlookupsController.php:27;44
+msgid "The Periodlookup could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PeriodlookupsController.php:36
+msgid "Invalid Periodlookup"
+msgstr ""
+
+#: Controller/PeriodlookupsController.php:56
+msgid "Invalid id for Periodlookup"
+msgstr ""
+
+#: Controller/PeriodlookupsController.php:60
+msgid "Periodlookup deleted"
+msgstr ""
+
+#: Controller/PeriodsController.php:14
+msgid "Invalid Period."
+msgstr ""
+
+#: Controller/PeriodsController.php:24;39
+msgid "The Period has been saved"
+msgstr ""
+
+#: Controller/PeriodsController.php:27;42
+msgid "The Period could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PeriodsController.php:34
+msgid "Invalid Period"
+msgstr ""
+
+#: Controller/PeriodsController.php:52
+msgid "Invalid id for Period"
+msgstr ""
+
+#: Controller/PeriodsController.php:56
+msgid "Period deleted"
+msgstr ""
+
+#: Controller/PerspectivecascadedsController.php:14
+msgid "Invalid Perspectivecascaded."
+msgstr ""
+
+#: Controller/PerspectivecascadedsController.php:24;42
+msgid "The Perspectivecascaded has been saved"
+msgstr ""
+
+#: Controller/PerspectivecascadedsController.php:27;45
+msgid "The Perspectivecascaded could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PerspectivecascadedsController.php:37
+msgid "Invalid Perspectivecascaded"
+msgstr ""
+
+#: Controller/PerspectivecascadedsController.php:58
+msgid "Invalid id for Perspectivecascaded"
+msgstr ""
+
+#: Controller/PerspectivecascadedsController.php:62
+msgid "Perspectivecascaded deleted"
+msgstr ""
+
+#: Controller/PerspectivecascadingsController.php:14
+msgid "Invalid Perspective Cascading."
+msgstr ""
+
+#: Controller/PerspectivecascadingsController.php:24;39
+msgid "The Perspectivecascading has been saved"
+msgstr ""
+
+#: Controller/PerspectivecascadingsController.php:27;42
+msgid "The Perspectivecascading could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PerspectivecascadingsController.php:34
+msgid "Invalid Perspectivecascading"
+msgstr ""
+
+#: Controller/PerspectivecascadingsController.php:52
+msgid "Invalid id for Perspectivecascading"
+msgstr ""
+
+#: Controller/PerspectivecascadingsController.php:56
+msgid "Perspectivecascading deleted"
+msgstr ""
+
+#: Controller/PerspectivesController.php:14
+msgid "Invalid Perspective."
+msgstr ""
+
+#: Controller/PerspectivesController.php:24;39
+msgid "The Perspective has been saved"
+msgstr ""
+
+#: Controller/PerspectivesController.php:27;42
+msgid "The Perspective could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PerspectivesController.php:34
+msgid "Invalid Perspective"
+msgstr ""
+
+#: Controller/PerspectivesController.php:52
+msgid "Invalid id for Perspective"
+msgstr ""
+
+#: Controller/PerspectivesController.php:56
+msgid "Perspective deleted"
+msgstr ""
+
+#: Controller/SubactivitiesController.php:14
+msgid "Invalid Subactivity."
+msgstr ""
+
+#: Controller/SubactivitiesController.php:24;43
+msgid "The Subactivity has been saved"
+msgstr ""
+
+#: Controller/SubactivitiesController.php:27;46
+msgid "The Subactivity could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SubactivitiesController.php:38
+msgid "Invalid Subactivity"
+msgstr ""
+
+#: Controller/SubactivitiesController.php:58
+msgid "Invalid id for Subactivity"
+msgstr ""
+
+#: Controller/SubactivitiesController.php:62
+msgid "Subactivity deleted"
+msgstr ""
+
+#: Controller/SubactivityweaksController.php:14
+msgid "Invalid Subactivityweak."
+msgstr ""
+
+#: Controller/SubactivityweaksController.php:24;41
+msgid "The Subactivityweak has been saved"
+msgstr ""
+
+#: Controller/SubactivityweaksController.php:27;44
+msgid "The Subactivityweak could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/SubactivityweaksController.php:36
+msgid "Invalid Subactivityweak"
+msgstr ""
+
+#: Controller/SubactivityweaksController.php:56
+msgid "Invalid id for Subactivityweak"
+msgstr ""
+
+#: Controller/SubactivityweaksController.php:60
+msgid "Subactivityweak deleted"
+msgstr ""
+
+#: Controller/ThemesController.php:14
+msgid "Invalid Theme."
+msgstr ""
+
+#: Controller/ThemesController.php:24;41
+msgid "The Theme has been saved"
+msgstr ""
+
+#: Controller/ThemesController.php:27;44
+msgid "The Theme could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ThemesController.php:36
+msgid "Invalid Theme"
+msgstr ""
+
+#: Controller/ThemesController.php:56
+msgid "Invalid id for Theme"
+msgstr ""
+
+#: Controller/ThemesController.php:60
+msgid "Theme deleted"
+msgstr ""
+
+#: Controller/ThresholdsController.php:14
+msgid "Invalid Threshold."
+msgstr ""
+
+#: Controller/ThresholdsController.php:24;41
+msgid "The Threshold has been saved"
+msgstr ""
+
+#: Controller/ThresholdsController.php:27;44
+msgid "The Threshold could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ThresholdsController.php:36
+msgid "Invalid Threshold"
+msgstr ""
+
+#: Controller/ThresholdsController.php:56
+msgid "Invalid id for Threshold"
+msgstr ""
+
+#: Controller/ThresholdsController.php:60
+msgid "Threshold deleted"
+msgstr ""
+
+#: Controller/UniversitiesController.php:14
+msgid "Invalid University."
+msgstr ""
+
+#: Controller/UniversitiesController.php:24;39
+msgid "The University has been saved"
+msgstr ""
+
+#: Controller/UniversitiesController.php:27;42
+msgid "The University could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/UniversitiesController.php:34
+msgid "Invalid University"
+msgstr ""
+
+#: Controller/UniversitiesController.php:52
+msgid "Invalid id for University"
+msgstr ""
+
+#: Controller/UniversitiesController.php:56
+msgid "University deleted"
+msgstr ""
+
+#: Controller/ValuesController.php:14
+msgid "Invalid Value."
+msgstr ""
+
+#: Controller/ValuesController.php:24;41
+msgid "The Value has been saved"
+msgstr ""
+
+#: Controller/ValuesController.php:27;44
+msgid "The Value could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ValuesController.php:36
+msgid "Invalid Value"
+msgstr ""
+
+#: Controller/ValuesController.php:56
+msgid "Invalid id for Value"
+msgstr ""
+
+#: Controller/ValuesController.php:60
+msgid "Value deleted"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UserGroupsController.php:45
+msgid "The group is successfully added"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UserGroupsController.php:63
+msgid "The group is successfully updated"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UserGroupsController.php:85
+msgid "Sorry some users are associated with this group, You cannot delete"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UserGroupsController.php:89
+msgid "Group is successfully deleted"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:94;130
+msgid "Incorrect Email/Username or Password"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:100
+msgid "Sorry your account is not active, please contact to Administrator"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:105
+msgid "Your registration has not been confirmed please verify your email or contact to Administrator"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:144
+msgid "You are successfully signed out"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:170
+msgid "Please select correct register as"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:198
+msgid "Please check your mail and confirm your registration"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:204
+msgid "Sorry new registration is currently disabled, please try again later"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:226
+msgid "Password changed successfully"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:252
+msgid "Password for %s changed successfully"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:278
+msgid "The user is successfully added"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:298
+msgid "The user is successfully updated"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:325
+msgid "User is successfully deleted"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:359
+msgid "User is successfully activated"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:361
+msgid "User is successfully deactivated"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:379
+msgid "User email is successfully verified"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:413
+msgid "Thank you, your account is activated now"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:416
+msgid "Thank you, your account is already activated"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:419;422
+msgid "Sorry something went wrong, please click on the link again"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:441;515
+msgid "Incorrect Email/Username"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:447
+msgid "Your registration has not been confirmed yet please verify your email before reset password"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:451
+msgid "Please check your mail for reset your password"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:481
+msgid "Your password has been reset successfully"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:484
+msgid "Something went wrong, please send password reset link again"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:487;491
+msgid "Something went wrong, please click again on the link in email"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:521
+msgid "Please check your mail to verify your email"
+msgstr ""
+
+#: Plugin/usermgmt/Controller/UsersController.php:523
+msgid "Your email is already verified"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:22
+#: Plugin/usermgmt/View/Users/access_denied.ctp:34
+#: Plugin/usermgmt/View/Users/dashboard.ctp:28
+msgid "Dashboard"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:24
+#: Plugin/usermgmt/View/Users/add_user.ctp:28;75
+#: Plugin/usermgmt/View/Users/dashboard.ctp:38
+msgid "Add User"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:25
+#: Plugin/usermgmt/View/Users/dashboard.ctp:39
+#: Plugin/usermgmt/View/Users/index.ctp:28
+msgid "All Users"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:26
+#: Plugin/usermgmt/View/UserGroups/add_group.ctp:28;57
+#: Plugin/usermgmt/View/Users/dashboard.ctp:40
+msgid "Add Group"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:27
+#: Plugin/usermgmt/View/UserGroups/index.ctp:28
+#: Plugin/usermgmt/View/Users/dashboard.ctp:41
+msgid "All Groups"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:28
+#: Plugin/usermgmt/View/Users/dashboard.ctp:42
+msgid "Permissions"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:29;32
+#: Plugin/usermgmt/View/Users/dashboard.ctp:43;47
+msgid "Profile"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:30
+#: Plugin/usermgmt/View/Users/dashboard.ctp:44
+msgid "Edit Profile"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:34
+#: Plugin/usermgmt/View/Users/change_password.ctp:28
+#: Plugin/usermgmt/View/Users/dashboard.ctp:46
+msgid "Change Password"
+msgstr ""
+
+#: Plugin/usermgmt/View/Elements/dashboard.ctp:35
+msgid "Sign Out"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroupPermissions/index.ctp:29
+msgid "User Group Permissions"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroupPermissions/index.ctp:31
+msgid "Select Controller"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroupPermissions/index.ctp:43
+msgid "Controller"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroupPermissions/index.ctp:44
+#: Plugin/usermgmt/View/UserGroups/index.ctp:42
+#: Plugin/usermgmt/View/Users/index.ctp:45
+msgid "Action"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroupPermissions/index.ctp:45
+msgid "Permission"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroupPermissions/index.ctp:46
+msgid "Operation"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/add_group.ctp:29
+#: Plugin/usermgmt/View/UserGroups/edit_group.ctp:29
+#: Plugin/usermgmt/View/UserGroups/index.ctp:29
+#: Plugin/usermgmt/View/Users/access_denied.ctp:28
+#: Plugin/usermgmt/View/Users/activate_password.ctp:28
+#: Plugin/usermgmt/View/Users/add_user.ctp:29
+#: Plugin/usermgmt/View/Users/change_password.ctp:29
+#: Plugin/usermgmt/View/Users/change_user_password.ctp:29
+#: Plugin/usermgmt/View/Users/dashboard.ctp:29
+#: Plugin/usermgmt/View/Users/edit_user.ctp:29
+#: Plugin/usermgmt/View/Users/email_verification.ctp:28
+#: Plugin/usermgmt/View/Users/forgot_password.ctp:28
+#: Plugin/usermgmt/View/Users/index.ctp:29
+#: Plugin/usermgmt/View/Users/login.ctp:29
+#: Plugin/usermgmt/View/Users/myprofile.ctp:29
+#: Plugin/usermgmt/View/Users/register.ctp:29
+#: Plugin/usermgmt/View/Users/view_user.ctp:29
+msgid "Home"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/add_group.ctp:36
+#: Plugin/usermgmt/View/UserGroups/edit_group.ctp:37
+msgid "Group Name"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/add_group.ctp:42
+#: Plugin/usermgmt/View/UserGroups/edit_group.ctp:43
+msgid "Alias Group Name"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/add_group.ctp:51
+#: Plugin/usermgmt/View/UserGroups/edit_group.ctp:49
+#: Plugin/usermgmt/View/UserGroups/index.ctp:40
+msgid "Allow Registration"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/edit_group.ctp:28
+msgid "Edit Group"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/edit_group.ctp:55
+msgid "Update Group"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/index.ctp:37
+msgid "Group Id"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/index.ctp:38
+#: Plugin/usermgmt/View/Users/index.ctp:38
+#: View/Activities/view.ctp:19
+#: View/Approvemonthlyactivities/view.ctp:44
+#: View/Initiatives/view.ctp:19;56
+#: View/Measures/view.ctp:19
+#: View/Measuringunits/view.ctp:19;48;120
+#: View/Objectivecascading/view.ctp:19;70;142;186
+#: View/Objectives/view.ctp:19;70;142;186
+#: View/Offices/view.ctp:19;54
+#: View/Periodlookups/view.ctp:24
+#: View/Periods/view.ctp:19;120
+#: View/Perspectivecascadings/view.ctp:19;54
+#: View/Perspectives/view.ctp:19;54
+#: View/Subactivities/view.ctp:9
+#: View/Themes/view.ctp:24
+#: View/Universities/view.ctp:19;67;109
+#: View/Values/view.ctp:24
+msgid "Name"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/index.ctp:39
+msgid "Alias Name"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/index.ctp:41
+#: Plugin/usermgmt/View/Users/index.ctp:44
+#: Plugin/usermgmt/View/Users/myprofile.ctp:84
+#: Plugin/usermgmt/View/Users/view_user.ctp:86
+#: View/Activities/view.ctp:9;134;177;245
+#: View/Activitymonths/view.ctp:9
+#: View/Approvemonthlyactivities/view.ctp:14;42
+#: View/Initiatives/view.ctp:9;54
+#: View/Measures/view.ctp:9
+#: View/Measuringunits/view.ctp:9;46;118;171
+#: View/Monthlyactivityplans/view.ctp:14
+#: View/News/view.ctp:14
+#: View/Objectivecascadeds/view.ctp:14
+#: View/Objectivecascading/view.ctp:9;68;140;184
+#: View/Objectives/view.ctp:9;68;140;184
+#: View/Offices/view.ctp:9;52
+#: View/Periodlookups/view.ctp:9;56;99
+#: View/Periods/view.ctp:9;50;117
+#: View/Perspectivecascadeds/view.ctp:14
+#: View/Perspectivecascadings/view.ctp:9;52
+#: View/Perspectives/view.ctp:9;52
+#: View/Subactivities/view.ctp:14;80
+#: View/Subactivityweaks/view.ctp:14
+#: View/Themes/view.ctp:9
+#: View/Thresholds/view.ctp:14
+#: View/Universities/view.ctp:9;64;106
+#: View/Values/view.ctp:9
+msgid "Created"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/index.ctp:63
+#: Plugin/usermgmt/View/Users/index.ctp:87
+#: View/Activities/view.ctp:157;225;275
+#: View/Activitymonths/edit.ctp:15
+#: View/Approvemonthlyactivities/edit.ctp:14
+#: View/Approvemonthlyactivities/index.ctp:41
+#: View/Approvemonthlyactivities/view.ctp:97
+#: View/Initiatives/edit.ctp:16
+#: View/Initiatives/view.ctp:107
+#: View/Measures/edit.ctp:20
+#: View/Measuringunits/edit.ctp:14
+#: View/Measuringunits/view.ctp:99;151;219
+#: View/Monthlyactivityplans/edit.ctp:28
+#: View/Objectivecascading/edit.ctp:18
+#: View/Objectivecascading/view.ctp:121;165;217
+#: View/Objectives/view.ctp:121;165;217
+#: View/Offices/edit.ctp:16
+#: View/Offices/view.ctp:105
+#: View/Periodlookups/view.ctp:79;147
+#: View/Periods/view.ctp:98;142
+#: View/Perspectivecascadings/view.ctp:81
+#: View/Perspectives/view.ctp:81
+#: View/Subactivities/view.ctp:104
+#: View/Subactivityweaks/edit.ctp:16
+#: View/Subactivityweaks/index.ctp:49
+#: View/Universities/view.ctp:87;129
+msgid "Delete"
+msgstr ""
+
+#: Plugin/usermgmt/View/UserGroups/index.ctp:63
+msgid "Are you sure you want to delete this group? Delete it your own risk"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/access_denied.ctp:27
+msgid "Access Denied"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/activate_password.ctp:27
+msgid "Reset Password"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/activate_password.ctp:36
+#: Plugin/usermgmt/View/Users/add_user.ctp:64
+#: Plugin/usermgmt/View/Users/change_user_password.ctp:37
+#: Plugin/usermgmt/View/Users/login.ctp:42
+#: Plugin/usermgmt/View/Users/register.ctp:64
+msgid "Password"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/activate_password.ctp:41
+#: Plugin/usermgmt/View/Users/add_user.ctp:69
+#: Plugin/usermgmt/View/Users/change_password.ctp:47
+#: Plugin/usermgmt/View/Users/change_user_password.ctp:42
+#: Plugin/usermgmt/View/Users/register.ctp:69
+msgid "Confirm Password"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/activate_password.ctp:56
+msgid "Reset"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/add_user.ctp:38
+#: Plugin/usermgmt/View/Users/edit_user.ctp:39
+#: Plugin/usermgmt/View/Users/index.ctp:41
+#: Plugin/usermgmt/View/Users/register.ctp:38
+msgid "Group"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/add_user.ctp:44
+#: Plugin/usermgmt/View/Users/edit_user.ctp:45
+#: Plugin/usermgmt/View/Users/index.ctp:39
+#: Plugin/usermgmt/View/Users/myprofile.ctp:46
+#: Plugin/usermgmt/View/Users/register.ctp:44
+#: Plugin/usermgmt/View/Users/view_user.ctp:46
+msgid "Username"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/add_user.ctp:49
+#: Plugin/usermgmt/View/Users/edit_user.ctp:50
+#: Plugin/usermgmt/View/Users/myprofile.ctp:50
+#: Plugin/usermgmt/View/Users/register.ctp:49
+#: Plugin/usermgmt/View/Users/view_user.ctp:50
+msgid "First Name"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/add_user.ctp:54
+#: Plugin/usermgmt/View/Users/edit_user.ctp:55
+#: Plugin/usermgmt/View/Users/myprofile.ctp:54
+#: Plugin/usermgmt/View/Users/register.ctp:54
+#: Plugin/usermgmt/View/Users/view_user.ctp:54
+msgid "Last Name"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/add_user.ctp:59
+#: Plugin/usermgmt/View/Users/edit_user.ctp:60
+#: Plugin/usermgmt/View/Users/index.ctp:40
+#: Plugin/usermgmt/View/Users/myprofile.ctp:58
+#: Plugin/usermgmt/View/Users/register.ctp:59
+#: Plugin/usermgmt/View/Users/view_user.ctp:58
+msgid "Email"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/change_password.ctp:37
+msgid "Old Password"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/change_password.ctp:42
+msgid "New Password"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/change_password.ctp:53
+#: Plugin/usermgmt/View/Users/change_user_password.ctp:48
+msgid "Change"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/change_user_password.ctp:28
+msgid "Change Password for "
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/edit_user.ctp:28
+msgid "Edit User"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/edit_user.ctp:66
+msgid "Update User"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/email_verification.ctp:27
+#: Plugin/usermgmt/View/Users/login.ctp:61
+msgid "Email Verification"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/email_verification.ctp:35
+#: Plugin/usermgmt/View/Users/forgot_password.ctp:36
+msgid "Enter Email / Username"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/email_verification.ctp:41
+#: Plugin/usermgmt/View/Users/forgot_password.ctp:42
+msgid "Send Email"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/forgot_password.ctp:27
+msgid "Forgot Password"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/index.ctp:37
+msgid "SL"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/index.ctp:42
+#: Plugin/usermgmt/View/Users/myprofile.ctp:62
+#: Plugin/usermgmt/View/Users/view_user.ctp:62
+msgid "Email Verified"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/index.ctp:43
+#: Plugin/usermgmt/View/Users/myprofile.ctp:73
+#: Plugin/usermgmt/View/Users/view_user.ctp:72
+msgid "Status"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/index.ctp:87
+msgid "Are you sure you want to delete this user?"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/login.ctp:27
+msgid "Sign In or  "
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/login.ctp:28
+msgid "Register"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/login.ctp:37
+msgid "Email / Username"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/login.ctp:50
+msgid "Remember me"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/login.ctp:56
+#: Plugin/usermgmt/View/Users/register.ctp:28
+msgid "Sign In"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/login.ctp:60
+msgid "Forgot Password?"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/myprofile.ctp:28
+msgid "My Profile"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/myprofile.ctp:38
+#: Plugin/usermgmt/View/Users/view_user.ctp:38
+#: View/Activities/view.ctp:179
+#: View/Measuringunits/view.ctp:173
+#: View/Periodlookups/view.ctp:101
+#: View/Periods/view.ctp:52
+msgid "User Id"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/myprofile.ctp:42
+#: Plugin/usermgmt/View/Users/view_user.ctp:42
+msgid "User Group"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/register.ctp:27
+msgid "Register or "
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/register.ctp:81
+msgid "Sign Up"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/view_user.ctp:28
+msgid "User Detail"
+msgstr ""
+
+#: Plugin/usermgmt/View/Users/view_user.ctp:82
+msgid "Ip Address"
+msgstr ""
+
+#: View/Activities/add.ctp:2;7
+msgid "Add Activity"
+msgstr ""
+
+#: View/Activities/edit.ctp:4
+#: View/Activities/view.ctp:108
+msgid "Edit Activity"
+msgstr ""
+
+#: View/Activities/view.ctp:2
+#: View/Activitymonths/view.ctp:19
+#: View/Monthlyactivityplans/view.ctp:29
+#: View/Thresholds/view.ctp:44
+msgid "Activity"
+msgstr ""
+
+#: View/Activities/view.ctp:4;133;175;243
+#: View/Activitymonths/view.ctp:4
+#: View/Approvemonthlyactivities/view.ctp:4;41
+#: View/Initiatives/view.ctp:4;53
+#: View/Measures/view.ctp:4
+#: View/Measuringunits/view.ctp:4;45;117;169
+#: View/Monthlyactivityplans/view.ctp:4
+#: View/News/view.ctp:4
+#: View/Objectivecascadeds/view.ctp:4
+#: View/Objectivecascading/view.ctp:4;67;139;183
+#: View/Objectives/view.ctp:4;67;139;183
+#: View/Offices/view.ctp:4;51
+#: View/Periodlookups/view.ctp:4;55;97
+#: View/Periods/view.ctp:4;48;116
+#: View/Perspectivecascadeds/view.ctp:4
+#: View/Perspectivecascadings/view.ctp:4;51
+#: View/Perspectives/view.ctp:4;51
+#: View/Subactivities/view.ctp:4;78
+#: View/Subactivityweaks/view.ctp:4
+#: View/Themes/view.ctp:4
+#: View/Thresholds/view.ctp:4
+#: View/Universities/view.ctp:4;63;105
+#: View/Values/view.ctp:4
+msgid "Id"
+msgstr ""
+
+#: View/Activities/view.ctp:14;135;178;246
+#: View/Activitymonths/view.ctp:14
+#: View/Approvemonthlyactivities/view.ctp:19;43
+#: View/Initiatives/view.ctp:14;55
+#: View/Measures/view.ctp:14
+#: View/Measuringunits/view.ctp:14;47;119;172
+#: View/Monthlyactivityplans/view.ctp:19
+#: View/News/view.ctp:19
+#: View/Objectivecascadeds/view.ctp:19
+#: View/Objectivecascading/view.ctp:14;69;141;185
+#: View/Objectives/view.ctp:14;69;141;185
+#: View/Offices/view.ctp:14;53
+#: View/Periodlookups/view.ctp:14;57;100
+#: View/Periods/view.ctp:14;51;118
+#: View/Perspectivecascadeds/view.ctp:19
+#: View/Perspectivecascadings/view.ctp:14;53
+#: View/Perspectives/view.ctp:14;53
+#: View/Subactivities/view.ctp:19;81
+#: View/Subactivityweaks/view.ctp:19
+#: View/Themes/view.ctp:14
+#: View/Thresholds/view.ctp:19
+#: View/Universities/view.ctp:14;65;107
+#: View/Values/view.ctp:14
+msgid "Modified"
+msgstr ""
+
+#: View/Activities/view.ctp:24
+#: View/Approvemonthlyactivities/view.ctp:45
+#: View/Initiatives/view.ctp:57
+#: View/Measuringunits/view.ctp:49
+#: View/Objectivecascadeds/view.ctp:24
+#: View/Objectivecascading/view.ctp:29;71
+#: View/Objectives/view.ctp:29;71
+#: View/Offices/view.ctp:55
+#: View/Perspectivecascadeds/view.ctp:9
+#: View/Perspectivecascadings/view.ctp:29;56
+#: View/Perspectives/view.ctp:29;56
+msgid "Weight"
+msgstr ""
+
+#: View/Activities/view.ctp:29
+#: View/Approvemonthlyactivities/view.ctp:46
+#: View/Initiatives/view.ctp:58
+#: View/Measuringunits/view.ctp:50
+#: View/Objectivecascading/view.ctp:72
+#: View/Objectives/view.ctp:72
+#: View/Offices/view.ctp:56
+msgid "Outcome"
+msgstr ""
+
+#: View/Activities/view.ctp:34
+#: View/Approvemonthlyactivities/view.ctp:47
+#: View/Initiatives/view.ctp:59
+#: View/Measures/view.ctp:34
+#: View/Measuringunits/view.ctp:51;123
+#: View/Objectivecascading/view.ctp:73;189
+#: View/Objectives/view.ctp:73;189
+#: View/Offices/view.ctp:57
+msgid "Baseline"
+msgstr ""
+
+#: View/Activities/view.ctp:39
+#: View/Approvemonthlyactivities/view.ctp:48
+#: View/Initiatives/view.ctp:60
+#: View/Measures/view.ctp:39
+#: View/Measuringunits/view.ctp:52;124
+#: View/Objectivecascading/view.ctp:74;190
+#: View/Objectives/view.ctp:74;190
+#: View/Offices/view.ctp:58
+msgid "Target"
+msgstr ""
+
+#: View/Activities/view.ctp:44
+#: View/Approvemonthlyactivities/view.ctp:49
+#: View/Initiatives/view.ctp:61
+#: View/Measuringunits/view.ctp:53
+#: View/Objectivecascading/view.ctp:75
+#: View/Objectives/view.ctp:75
+#: View/Offices/view.ctp:59
+msgid "Accomplishment Period"
+msgstr ""
+
+#: View/Activities/view.ctp:49
+#: View/Approvemonthlyactivities/view.ctp:50
+#: View/Initiatives/view.ctp:62
+#: View/Measuringunits/view.ctp:54
+#: View/Objectivecascading/view.ctp:76
+#: View/Objectives/view.ctp:76
+#: View/Offices/view.ctp:60
+msgid "Responsible Person"
+msgstr ""
+
+#: View/Activities/view.ctp:54
+#: View/Approvemonthlyactivities/view.ctp:51
+#: View/Initiatives/view.ctp:63
+#: View/Measuringunits/view.ctp:55
+#: View/Objectivecascading/view.ctp:77
+#: View/Objectives/view.ctp:77
+#: View/Offices/view.ctp:61
+msgid "Focal Person"
+msgstr ""
+
+#: View/Activities/view.ctp:59
+#: View/Approvemonthlyactivities/view.ctp:52
+#: View/Initiatives/view.ctp:64
+#: View/Measuringunits/view.ctp:56
+#: View/Objectivecascading/view.ctp:78
+#: View/Objectives/view.ctp:78
+#: View/Offices/view.ctp:62
+msgid "Outcome Accomplishment"
+msgstr ""
+
+#: View/Activities/view.ctp:64
+#: View/Approvemonthlyactivities/view.ctp:53
+#: View/Initiatives/view.ctp:65
+#: View/Measuringunits/view.ctp:57
+#: View/Objectivecascading/view.ctp:79
+#: View/Objectives/view.ctp:79
+#: View/Offices/view.ctp:63
+msgid "Quarter1"
+msgstr ""
+
+#: View/Activities/view.ctp:69
+#: View/Approvemonthlyactivities/view.ctp:54
+#: View/Initiatives/view.ctp:66
+#: View/Measuringunits/view.ctp:58
+#: View/Objectivecascading/view.ctp:80
+#: View/Objectives/view.ctp:80
+#: View/Offices/view.ctp:64
+msgid "Quarter2"
+msgstr ""
+
+#: View/Activities/view.ctp:74
+#: View/Approvemonthlyactivities/view.ctp:55
+#: View/Initiatives/view.ctp:67
+#: View/Measuringunits/view.ctp:59
+#: View/Objectivecascading/view.ctp:81
+#: View/Objectives/view.ctp:81
+#: View/Offices/view.ctp:65
+msgid "Quarter3"
+msgstr ""
+
+#: View/Activities/view.ctp:79
+#: View/Approvemonthlyactivities/view.ctp:56
+#: View/Initiatives/view.ctp:68
+#: View/Measuringunits/view.ctp:60
+#: View/Objectivecascading/view.ctp:82
+#: View/Objectives/view.ctp:82
+#: View/Offices/view.ctp:66
+msgid "Quarter4"
+msgstr ""
+
+#: View/Activities/view.ctp:84
+#: View/Objectivecascadeds/view.ctp:34
+#: View/Offices/view.ctp:2
+#: View/Perspectivecascadeds/view.ctp:34
+msgid "Office"
+msgstr ""
+
+#: View/Activities/view.ctp:89
+#: View/Initiatives/view.ctp:29
+#: View/Measures/view.ctp:24
+#: View/Objectivecascadeds/view.ctp:29
+#: View/Objectivecascading/view.ctp:2
+#: View/Objectives/view.ctp:2
+msgid "Objective"
+msgstr ""
+
+#: View/Activities/view.ctp:94
+#: View/Measures/view.ctp:29
+#: View/Measuringunits/view.ctp:2
+#: View/Monthlyactivityplans/view.ctp:39
+msgid "Measuringunit"
+msgstr ""
+
+#: View/Activities/view.ctp:99
+#: View/Initiatives/view.ctp:2
+msgid "Initiative"
+msgstr ""
+
+#: View/Activities/view.ctp:109
+msgid "Delete Activity"
+msgstr ""
+
+#: View/Activities/view.ctp:109;157;225;275
+#: View/Activitymonths/edit.ctp:15
+#: View/Activitymonths/view.ctp:34
+#: View/Approvemonthlyactivities/edit.ctp:14
+#: View/Approvemonthlyactivities/index.ctp:41
+#: View/Approvemonthlyactivities/view.ctp:29;97
+#: View/Initiatives/edit.ctp:16
+#: View/Initiatives/view.ctp:39;107
+#: View/Measures/edit.ctp:20
+#: View/Measures/view.ctp:59
+#: View/Measuringunits/edit.ctp:14
+#: View/Measuringunits/view.ctp:29;99;151;219
+#: View/Monthlyactivityplans/edit.ctp:28
+#: View/Monthlyactivityplans/view.ctp:99
+#: View/News/view.ctp:29
+#: View/Objectivecascadeds/index.ctp:49
+#: View/Objectivecascadeds/view.ctp:44
+#: View/Objectivecascading/edit.ctp:18
+#: View/Objectivecascading/view.ctp:49;121;165;217
+#: View/Objectives/view.ctp:49;121;165;217
+#: View/Offices/edit.ctp:16
+#: View/Offices/view.ctp:39;105
+#: View/Periodlookups/view.ctp:39;79;147
+#: View/Periods/view.ctp:34;98;142
+#: View/Perspectivecascadeds/index (copy).ctp:49
+#: View/Perspectivecascadeds/index.ctp:45
+#: View/Perspectivecascadeds/view.ctp:44
+#: View/Perspectivecascadings/view.ctp:39;81
+#: View/Perspectives/view.ctp:39;81
+#: View/Subactivities/index.ctp:60
+#: View/Subactivities/view.ctp:64;104
+#: View/Subactivityweaks/edit.ctp:16
+#: View/Subactivityweaks/index.ctp:49
+#: View/Subactivityweaks/view.ctp:39
+#: View/Themes/view.ctp:34
+#: View/Thresholds/view.ctp:54
+#: View/Universities/view.ctp:49;87;129
+#: View/Values/view.ctp:34
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Activities/view.ctp:110
+#: View/Activitymonths/edit.ctp:17
+#: View/Activitymonths/view.ctp:37
+#: View/Approvemonthlyactivities/add.ctp:14
+#: View/Approvemonthlyactivities/edit.ctp:16
+#: View/Approvemonthlyactivities/index.ctp:55
+#: View/Approvemonthlyactivities/view.ctp:32
+#: View/Initiatives/edit.ctp:20
+#: View/Initiatives/view.ctp:44
+#: View/Measuringunits/edit.ctp:16
+#: View/Measuringunits/view.ctp:32
+#: View/Monthlyactivityplans/edit.ctp:32
+#: View/Monthlyactivityplans/view.ctp:104
+#: View/Objectivecascading/edit.ctp:22
+#: View/Objectivecascading/view.ctp:54
+#: View/Objectives/view.ctp:54
+#: View/Offices/edit.ctp:18
+#: View/Offices/view.ctp:42
+#: View/Thresholds/view.ctp:57
+msgid "List Activities"
+msgstr ""
+
+#: View/Activities/view.ctp:111
+#: View/Activitymonths/edit.ctp:18
+#: View/Activitymonths/view.ctp:38
+#: View/Approvemonthlyactivities/add.ctp:15
+#: View/Approvemonthlyactivities/edit.ctp:17
+#: View/Approvemonthlyactivities/index.ctp:56
+#: View/Approvemonthlyactivities/view.ctp:33;106
+#: View/Initiatives/edit.ctp:21
+#: View/Initiatives/view.ctp:45;116
+#: View/Measuringunits/edit.ctp:17
+#: View/Measuringunits/view.ctp:33;108
+#: View/Monthlyactivityplans/edit.ctp:33
+#: View/Monthlyactivityplans/view.ctp:105
+#: View/Objectivecascading/edit.ctp:23
+#: View/Objectivecascading/view.ctp:55;130
+#: View/Objectives/view.ctp:55;130
+#: View/Offices/edit.ctp:19
+#: View/Offices/view.ctp:43;114
+#: View/Thresholds/view.ctp:58
+msgid "New Activity"
+msgstr ""
+
+#: View/Activities/view.ctp:112
+#: View/Objectivecascadeds/view.ctp:49
+#: View/Offices/edit.ctp:17
+#: View/Offices/view.ctp:40
+#: View/Perspectivecascadeds/view.ctp:49
+msgid "List Offices"
+msgstr ""
+
+#: View/Activities/view.ctp:113
+#: View/Objectivecascadeds/view.ctp:50
+#: View/Offices/view.ctp:41
+#: View/Perspectivecascadeds/view.ctp:50
+msgid "New Office"
+msgstr ""
+
+#: View/Activities/view.ctp:114
+#: View/Initiatives/edit.ctp:18
+#: View/Initiatives/view.ctp:42
+#: View/Measures/edit.ctp:22
+#: View/Measures/view.ctp:62
+#: View/Objectivecascadeds/view.ctp:47
+#: View/Objectivecascading/edit.ctp:19
+#: View/Objectivecascading/view.ctp:50
+#: View/Objectives/view.ctp:50
+#: View/Perspectivecascadings/view.ctp:42
+#: View/Perspectives/view.ctp:42
+msgid "List Objectives"
+msgstr ""
+
+#: View/Activities/view.ctp:115
+#: View/Initiatives/edit.ctp:19
+#: View/Initiatives/view.ctp:43
+#: View/Measures/edit.ctp:23
+#: View/Measures/view.ctp:63
+#: View/Objectivecascadeds/view.ctp:48
+#: View/Objectivecascading/view.ctp:51
+#: View/Objectives/view.ctp:51
+#: View/Perspectivecascadings/view.ctp:43;90
+#: View/Perspectives/view.ctp:43;90
+msgid "New Objective"
+msgstr ""
+
+#: View/Activities/view.ctp:116
+#: View/Measures/edit.ctp:24
+#: View/Measures/view.ctp:64
+#: View/Measuringunits/edit.ctp:15
+#: View/Measuringunits/view.ctp:30
+#: View/Monthlyactivityplans/edit.ctp:36
+#: View/Monthlyactivityplans/view.ctp:108
+msgid "List Measuringunits"
+msgstr ""
+
+#: View/Activities/view.ctp:117
+#: View/Measures/edit.ctp:25
+#: View/Measures/view.ctp:65
+#: View/Measuringunits/view.ctp:31
+#: View/Monthlyactivityplans/edit.ctp:37
+#: View/Monthlyactivityplans/view.ctp:109
+msgid "New Measuringunit"
+msgstr ""
+
+#: View/Activities/view.ctp:118
+#: View/Initiatives/edit.ctp:17
+#: View/Initiatives/view.ctp:40
+#: View/Objectivecascading/edit.ctp:24
+#: View/Objectivecascading/view.ctp:56
+#: View/Objectives/view.ctp:56
+msgid "List Initiatives"
+msgstr ""
+
+#: View/Activities/view.ctp:119
+#: View/Initiatives/view.ctp:41
+#: View/Objectivecascading/edit.ctp:25
+#: View/Objectivecascading/view.ctp:57;174
+#: View/Objectives/view.ctp:57;174
+msgid "New Initiative"
+msgstr ""
+
+#: View/Activities/view.ctp:120
+#: View/Activitymonths/edit.ctp:16
+#: View/Activitymonths/view.ctp:35
+#: View/Periodlookups/view.ctp:44
+#: View/Subactivities/view.ctp:67
+msgid "List Activitymonths"
+msgstr ""
+
+#: View/Activities/view.ctp:121;166
+#: View/Activitymonths/view.ctp:36
+#: View/Periodlookups/view.ctp:45;88
+#: View/Subactivities/view.ctp:68
+msgid "New Activitymonth"
+msgstr ""
+
+#: View/Activities/view.ctp:122
+#: View/Measuringunits/edit.ctp:20
+#: View/Measuringunits/view.ctp:36
+#: View/Monthlyactivityplans/edit.ctp:29
+#: View/Monthlyactivityplans/view.ctp:100
+#: View/Periodlookups/view.ctp:46
+#: View/Periods/view.ctp:37
+msgid "List Monthlyactivityplans"
+msgstr ""
+
+#: View/Activities/view.ctp:123;234
+#: View/Measuringunits/edit.ctp:21
+#: View/Measuringunits/view.ctp:37;228
+#: View/Monthlyactivityplans/view.ctp:101
+#: View/Periodlookups/view.ctp:47;156
+#: View/Periods/view.ctp:38;107
+msgid "New Monthlyactivityplan"
+msgstr ""
+
+#: View/Activities/view.ctp:124
+#: View/Thresholds/view.ctp:55
+msgid "List Thresholds"
+msgstr ""
+
+#: View/Activities/view.ctp:125;284
+#: View/Thresholds/view.ctp:56
+msgid "New Threshold"
+msgstr ""
+
+#: View/Activities/view.ctp:129
+#: View/Periodlookups/view.ctp:51
+msgid "Related Activitymonths"
+msgstr ""
+
+#: View/Activities/view.ctp:136;180;251
+#: View/Measuringunits/view.ctp:174
+#: View/Periodlookups/view.ctp:58;102
+#: View/Periods/view.ctp:53
+msgid "Activity Id"
+msgstr ""
+
+#: View/Activities/view.ctp:137;181
+#: View/Measuringunits/view.ctp:175
+#: View/Periodlookups/view.ctp:59;103
+#: View/Periods/view.ctp:54
+msgid "Periodlookup Id"
+msgstr ""
+
+#: View/Activities/view.ctp:138;193;252
+#: View/Approvemonthlyactivities/index.ctp:15
+#: View/Approvemonthlyactivities/view.ctp:62
+#: View/Initiatives/view.ctp:73
+#: View/Measuringunits/view.ctp:65;127;187
+#: View/Objectivecascading/view.ctp:87;145;193
+#: View/Objectives/view.ctp:87;145;193
+#: View/Offices/view.ctp:71
+#: View/Periodlookups/view.ctp:60;115
+#: View/Periods/view.ctp:66;122
+#: View/Perspectivecascadeds/index (copy).ctp:14
+#: View/Perspectivecascadings/view.ctp:59
+#: View/Perspectives/view.ctp:59
+#: View/Subactivities/index.ctp:18
+#: View/Subactivities/view.ctp:84
+#: View/Subactivityweaks/index.ctp:17
+#: View/Universities/view.ctp:68;110
+msgid "Actions"
+msgstr ""
+
+#: View/Activities/view.ctp:155;223;273
+#: View/Approvemonthlyactivities/index.ctp:39
+#: View/Approvemonthlyactivities/view.ctp:95
+#: View/Initiatives/view.ctp:105
+#: View/Measuringunits/view.ctp:97;149;217
+#: View/Objectivecascading/view.ctp:119;163;215
+#: View/Objectives/view.ctp:119;163;215
+#: View/Offices/view.ctp:103
+#: View/Periodlookups/view.ctp:77;145
+#: View/Periods/view.ctp:96;140
+#: View/Perspectivecascadings/view.ctp:79
+#: View/Perspectives/view.ctp:79
+#: View/Subactivities/view.ctp:102
+#: View/Subactivityweaks/index.ctp:47
+#: View/Universities/view.ctp:85;127
+msgid "View"
+msgstr ""
+
+#: View/Activities/view.ctp:156;224;274
+#: View/Approvemonthlyactivities/index.ctp:40
+#: View/Approvemonthlyactivities/view.ctp:96
+#: View/Initiatives/view.ctp:106
+#: View/Measuringunits/view.ctp:98;150;218
+#: View/Objectivecascading/view.ctp:120;164;216
+#: View/Objectives/view.ctp:120;164;216
+#: View/Offices/view.ctp:104
+#: View/Periodlookups/view.ctp:78;146
+#: View/Periods/view.ctp:97;141
+#: View/Perspectivecascadings/view.ctp:80
+#: View/Perspectives/view.ctp:80
+#: View/Subactivities/view.ctp:103
+#: View/Subactivityweaks/index.ctp:48
+#: View/Universities/view.ctp:86;128
+msgid "Edit"
+msgstr ""
+
+#: View/Activities/view.ctp:171
+#: View/Measuringunits/view.ctp:165
+#: View/Periodlookups/view.ctp:93
+#: View/Periods/view.ctp:44
+msgid "Related Monthlyactivityplans"
+msgstr ""
+
+#: View/Activities/view.ctp:176
+#: View/Measuringunits/view.ctp:170
+#: View/Monthlyactivityplans/view.ctp:9
+#: View/News/view.ctp:9
+#: View/Periodlookups/view.ctp:98
+#: View/Periods/view.ctp:49
+msgid "Title"
+msgstr ""
+
+#: View/Activities/view.ctp:182
+#: View/Approvemonthlyactivities/view.ctp:59
+#: View/Initiatives/view.ctp:71
+#: View/Measuringunits/view.ctp:63;122;176
+#: View/Objectivecascading/view.ctp:85;188
+#: View/Objectives/view.ctp:85;188
+#: View/Offices/view.ctp:69
+#: View/Periodlookups/view.ctp:104
+#: View/Periods/view.ctp:55
+msgid "Measuringunit Id"
+msgstr ""
+
+#: View/Activities/view.ctp:183
+#: View/Measuringunits/view.ctp:177
+#: View/Periodlookups/view.ctp:105
+#: View/Periods/view.ctp:56;119
+msgid "Period Id"
+msgstr ""
+
+#: View/Activities/view.ctp:184;248
+#: View/Approvemonthlyactivities/view.ctp:9
+#: View/Measuringunits/view.ctp:178
+#: View/Monthlyactivityplans/view.ctp:49
+#: View/Periodlookups/view.ctp:106
+#: View/Periods/view.ctp:57
+#: View/Perspectivecascadeds/view.ctp:24
+#: View/Subactivities/view.ctp:24
+#: View/Thresholds/view.ctp:29
+msgid "Year"
+msgstr ""
+
+#: View/Activities/view.ctp:185
+#: View/Measuringunits/view.ctp:179
+#: View/Monthlyactivityplans/view.ctp:54
+#: View/Periodlookups/view.ctp:107
+#: View/Periods/view.ctp:58
+msgid "Plan In Quantity"
+msgstr ""
+
+#: View/Activities/view.ctp:186
+#: View/Measuringunits/view.ctp:180
+#: View/Monthlyactivityplans/view.ctp:59
+#: View/Periodlookups/view.ctp:108
+#: View/Periods/view.ctp:59
+msgid "Plan In Quality"
+msgstr ""
+
+#: View/Activities/view.ctp:187
+#: View/Measuringunits/view.ctp:181
+#: View/Monthlyactivityplans/view.ctp:64
+#: View/Periodlookups/view.ctp:109
+#: View/Periods/view.ctp:60
+msgid "Plan In Time"
+msgstr ""
+
+#: View/Activities/view.ctp:188
+#: View/Measuringunits/view.ctp:182
+#: View/Monthlyactivityplans/view.ctp:69
+#: View/Periodlookups/view.ctp:110
+#: View/Periods/view.ctp:61
+msgid "Plan In Cost"
+msgstr ""
+
+#: View/Activities/view.ctp:189
+#: View/Measuringunits/view.ctp:183
+#: View/Monthlyactivityplans/view.ctp:74
+#: View/Periodlookups/view.ctp:111
+#: View/Periods/view.ctp:62
+msgid "Accomplishment Quantity"
+msgstr ""
+
+#: View/Activities/view.ctp:190
+#: View/Measuringunits/view.ctp:184
+#: View/Monthlyactivityplans/view.ctp:79
+#: View/Periodlookups/view.ctp:112
+#: View/Periods/view.ctp:63
+msgid "Accomplishment Quality"
+msgstr ""
+
+#: View/Activities/view.ctp:191
+#: View/Measuringunits/view.ctp:185
+#: View/Monthlyactivityplans/view.ctp:84
+#: View/Periodlookups/view.ctp:113
+#: View/Periods/view.ctp:64
+msgid "Accomplishment Time"
+msgstr ""
+
+#: View/Activities/view.ctp:192
+#: View/Measuringunits/view.ctp:186
+#: View/Monthlyactivityplans/view.ctp:89
+#: View/Periodlookups/view.ctp:114
+#: View/Periods/view.ctp:65
+msgid "Accomplishment Cost"
+msgstr ""
+
+#: View/Activities/view.ctp:239
+msgid "Related Thresholds"
+msgstr ""
+
+#: View/Activities/view.ctp:244
+#: View/Initiatives/view.ctp:24
+#: View/Measures/view.ctp:44
+#: View/Measuringunits/view.ctp:125
+#: View/Objectivecascading/view.ctp:143;191
+#: View/Objectives/view.ctp:143;191
+#: View/Offices/view.ctp:24
+#: View/Periodlookups/view.ctp:29
+#: View/Periods/view.ctp:24;121
+#: View/Perspectivecascadings/view.ctp:24
+#: View/Perspectives/view.ctp:24
+#: View/Thresholds/view.ctp:9
+msgid "Description"
+msgstr ""
+
+#: View/Activities/view.ctp:247
+#: View/Thresholds/view.ctp:24
+msgid "Rank"
+msgstr ""
+
+#: View/Activities/view.ctp:249
+#: View/Thresholds/view.ctp:34
+msgid "Lower"
+msgstr ""
+
+#: View/Activities/view.ctp:250
+#: View/Thresholds/view.ctp:39
+msgid "Upper"
+msgstr ""
+
+#: View/Activitymonths/add.ctp:4
+msgid "Add Activitymonth"
+msgstr ""
+
+#: View/Activitymonths/edit.ctp:4
+#: View/Activitymonths/view.ctp:33
+msgid "Edit Activitymonth"
+msgstr ""
+
+#: View/Activitymonths/edit.ctp:19
+#: View/Activitymonths/view.ctp:39
+#: View/Monthlyactivityplans/edit.ctp:34
+#: View/Monthlyactivityplans/view.ctp:106
+#: View/Periodlookups/view.ctp:40
+#: View/Periods/view.ctp:39
+msgid "List Periodlookups"
+msgstr ""
+
+#: View/Activitymonths/edit.ctp:20
+#: View/Activitymonths/view.ctp:40
+#: View/Monthlyactivityplans/edit.ctp:35
+#: View/Monthlyactivityplans/view.ctp:107
+#: View/Periodlookups/view.ctp:41
+#: View/Periods/view.ctp:40;151
+msgid "New Periodlookup"
+msgstr ""
+
+#: View/Activitymonths/view.ctp:2
+#: View/Subactivities/view.ctp:54
+msgid "Activitymonth"
+msgstr ""
+
+#: View/Activitymonths/view.ctp:24
+#: View/Monthlyactivityplans/view.ctp:34
+#: View/Periodlookups/view.ctp:2
+msgid "Periodlookup"
+msgstr ""
+
+#: View/Activitymonths/view.ctp:34
+msgid "Delete Activitymonth"
+msgstr ""
+
+#: View/Approvemonthlyactivities/add.ctp:4
+msgid "Add Approvemonthlyactivity"
+msgstr ""
+
+#: View/Approvemonthlyactivities/add.ctp:13
+#: View/Approvemonthlyactivities/edit.ctp:15
+#: View/Approvemonthlyactivities/view.ctp:30
+msgid "List Approvemonthlyactivities"
+msgstr ""
+
+#: View/Approvemonthlyactivities/edit.ctp:4
+#: View/Approvemonthlyactivities/view.ctp:28
+msgid "Edit Approvemonthlyactivity"
+msgstr ""
+
+#: View/Approvemonthlyactivities/index.ctp:2
+msgid "Approvemonthlyactivities"
+msgstr ""
+
+#: View/Approvemonthlyactivities/index.ctp:6
+#: View/Subactivityweaks/index.ctp:6
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: View/Approvemonthlyactivities/index.ctp:48
+#: View/Subactivityweaks/index.ctp:56
+msgid "previous"
+msgstr ""
+
+#: View/Approvemonthlyactivities/index.ctp:50
+#: View/Subactivityweaks/index.ctp:58
+msgid "next"
+msgstr ""
+
+#: View/Approvemonthlyactivities/index.ctp:54
+#: View/Approvemonthlyactivities/view.ctp:31
+msgid "New Approvemonthlyactivity"
+msgstr ""
+
+#: View/Approvemonthlyactivities/view.ctp:2
+msgid "Approvemonthlyactivity"
+msgstr ""
+
+#: View/Approvemonthlyactivities/view.ctp:29
+msgid "Delete Approvemonthlyactivity"
+msgstr ""
+
+#: View/Approvemonthlyactivities/view.ctp:37
+#: View/Initiatives/view.ctp:49
+#: View/Measuringunits/view.ctp:41
+#: View/Objectivecascading/view.ctp:63
+#: View/Objectives/view.ctp:63
+#: View/Offices/view.ctp:47
+msgid "Related Activities"
+msgstr ""
+
+#: View/Approvemonthlyactivities/view.ctp:57
+#: View/Initiatives/view.ctp:69
+#: View/Measuringunits/view.ctp:61
+#: View/Objectivecascading/view.ctp:83
+#: View/Objectives/view.ctp:83
+#: View/Offices/view.ctp:67
+msgid "Office Id"
+msgstr ""
+
+#: View/Approvemonthlyactivities/view.ctp:58
+#: View/Initiatives/view.ctp:70
+#: View/Measuringunits/view.ctp:62;121
+#: View/Objectivecascading/view.ctp:84;144;187
+#: View/Objectives/view.ctp:84;144;187
+#: View/Offices/view.ctp:68
+msgid "Objective Id"
+msgstr ""
+
+#: View/Approvemonthlyactivities/view.ctp:60
+#: View/Initiatives/view.ctp:72
+#: View/Measuringunits/view.ctp:64
+#: View/Objectivecascading/view.ctp:86
+#: View/Objectives/view.ctp:86
+#: View/Offices/view.ctp:70
+msgid "Initiative Id"
+msgstr ""
+
+#: View/Approvemonthlyactivities/view.ctp:61
+msgid "Approvemonthlyactivity Id"
+msgstr ""
+
+#: View/Initiatives/add.ctp:4
+msgid "Add Initiative"
+msgstr ""
+
+#: View/Initiatives/edit.ctp:4
+#: View/Initiatives/view.ctp:38
+msgid "Edit Initiative"
+msgstr ""
+
+#: View/Initiatives/index.ctp:3
+msgid "Initiatives"
+msgstr ""
+
+#: View/Initiatives/view.ctp:39
+msgid "Delete Initiative"
+msgstr ""
+
+#: View/Measures/add.ctp:4
+msgid "Add Measure"
+msgstr ""
+
+#: View/Measures/edit.ctp:4
+#: View/Measures/view.ctp:58
+msgid "Edit Measure"
+msgstr ""
+
+#: View/Measures/edit.ctp:21
+#: View/Measures/view.ctp:60
+#: View/Measuringunits/edit.ctp:18
+#: View/Measuringunits/view.ctp:34
+#: View/Objectivecascading/edit.ctp:26
+#: View/Objectivecascading/view.ctp:58
+#: View/Objectives/view.ctp:58
+msgid "List Measures"
+msgstr ""
+
+#: View/Measures/view.ctp:2
+msgid "Measure"
+msgstr ""
+
+#: View/Measures/view.ctp:49
+#: View/Measuringunits/view.ctp:126
+#: View/Objectivecascading/view.ctp:192
+#: View/Objectives/view.ctp:192
+msgid "Source Information"
+msgstr ""
+
+#: View/Measures/view.ctp:59
+msgid "Delete Measure"
+msgstr ""
+
+#: View/Measures/view.ctp:61
+#: View/Measuringunits/edit.ctp:19
+#: View/Measuringunits/view.ctp:35;160
+#: View/Objectivecascading/edit.ctp:27
+#: View/Objectivecascading/view.ctp:59;226
+#: View/Objectives/view.ctp:59;226
+msgid "New Measure"
+msgstr ""
+
+#: View/Measuringunits/add.ctp:4
+msgid "Add Measuringunit"
+msgstr ""
+
+#: View/Measuringunits/edit.ctp:4
+#: View/Measuringunits/view.ctp:28
+msgid "Edit Measuringunit"
+msgstr ""
+
+#: View/Measuringunits/view.ctp:29
+msgid "Delete Measuringunit"
+msgstr ""
+
+#: View/Measuringunits/view.ctp:113
+#: View/Objectivecascading/view.ctp:179
+#: View/Objectives/view.ctp:179
+msgid "Related Measures"
+msgstr ""
+
+#: View/Monthlyactivityplans/add.ctp:5
+msgid "Add Monthlyactivityplan"
+msgstr ""
+
+#: View/Monthlyactivityplans/edit.ctp:4
+#: View/Monthlyactivityplans/view.ctp:98
+msgid "Edit Monthlyactivityplan"
+msgstr ""
+
+#: View/Monthlyactivityplans/edit.ctp:30
+#: View/Monthlyactivityplans/view.ctp:102
+msgid "List Users"
+msgstr ""
+
+#: View/Monthlyactivityplans/edit.ctp:31
+#: View/Monthlyactivityplans/view.ctp:103
+msgid "New User"
+msgstr ""
+
+#: View/Monthlyactivityplans/edit.ctp:38
+#: View/Monthlyactivityplans/view.ctp:110
+#: View/Periodlookups/view.ctp:42
+#: View/Periods/view.ctp:35
+msgid "List Periods"
+msgstr ""
+
+#: View/Monthlyactivityplans/edit.ctp:39
+#: View/Monthlyactivityplans/view.ctp:111
+#: View/Periodlookups/view.ctp:43
+#: View/Periods/view.ctp:36
+msgid "New Period"
+msgstr ""
+
+#: View/Monthlyactivityplans/view.ctp:2
+msgid "Monthlyactivityplan"
+msgstr ""
+
+#: View/Monthlyactivityplans/view.ctp:24
+msgid "User"
+msgstr ""
+
+#: View/Monthlyactivityplans/view.ctp:44
+#: View/Periodlookups/view.ctp:19
+#: View/Periods/view.ctp:2
+msgid "Period"
+msgstr ""
+
+#: View/Monthlyactivityplans/view.ctp:99
+msgid "Delete Monthlyactivityplan"
+msgstr ""
+
+#: View/News/add.ctp:5
+msgid "Add News"
+msgstr ""
+
+#: View/News/edit.ctp:5
+#: View/News/view.ctp:28
+msgid "Edit News"
+msgstr ""
+
+#: View/News/view.ctp:2
+msgid "News"
+msgstr ""
+
+#: View/News/view.ctp:29
+msgid "Delete News"
+msgstr ""
+
+#: View/News/view.ctp:30
+msgid "List News"
+msgstr ""
+
+#: View/News/view.ctp:31
+msgid "New News"
+msgstr ""
+
+#: View/Objectivecascadeds/add.ctp:5
+msgid "Add Objectivecascaded"
+msgstr ""
+
+#: View/Objectivecascadeds/edit.ctp:5
+#: View/Objectivecascadeds/view.ctp:43
+msgid "Edit Objectivecascaded"
+msgstr ""
+
+#: View/Objectivecascadeds/view.ctp:2
+msgid "Objectivecascaded"
+msgstr ""
+
+#: View/Objectivecascadeds/view.ctp:9
+msgid "Objective Outcome"
+msgstr ""
+
+#: View/Objectivecascadeds/view.ctp:44
+msgid "Delete Objectivecascaded"
+msgstr ""
+
+#: View/Objectivecascadeds/view.ctp:45
+msgid "List Objectivecascadeds"
+msgstr ""
+
+#: View/Objectivecascadeds/view.ctp:46
+msgid "New Objectivecascaded"
+msgstr ""
+
+#: View/Objectivecascading/add.ctp:5
+#: View/Objectives/add.ctp:5
+msgid "Add Objective"
+msgstr ""
+
+#: View/Objectivecascading/edit.ctp:4
+#: View/Objectivecascading/view.ctp:48
+#: View/Objectives/edit.ctp:6
+#: View/Objectives/view.ctp:48
+msgid "Edit Objective"
+msgstr ""
+
+#: View/Objectivecascading/edit.ctp:20
+#: View/Objectivecascading/view.ctp:52
+#: View/Objectives/view.ctp:52
+#: View/Perspectivecascadeds/view.ctp:47
+#: View/Perspectivecascadings/view.ctp:40
+#: View/Perspectives/view.ctp:40
+msgid "List Perspectives"
+msgstr ""
+
+#: View/Objectivecascading/edit.ctp:21
+#: View/Objectivecascading/view.ctp:53
+#: View/Objectives/view.ctp:53
+#: View/Perspectivecascadeds/view.ctp:48
+#: View/Perspectivecascadings/view.ctp:41
+#: View/Perspectives/view.ctp:41
+msgid "New Perspective"
+msgstr ""
+
+#: View/Objectivecascading/view.ctp:24
+#: View/Objectives/view.ctp:24
+#: View/Perspectivecascadings/view.ctp:55
+#: View/Perspectives/view.ctp:55
+msgid "Scope"
+msgstr ""
+
+#: View/Objectivecascading/view.ctp:34
+#: View/Objectives/view.ctp:34
+#: View/Perspectivecascadings/view.ctp:57
+#: View/Perspectives/view.ctp:57
+msgid "Target Year"
+msgstr ""
+
+#: View/Objectivecascading/view.ctp:39
+#: View/Objectives/view.ctp:39
+#: View/Perspectivecascadeds/view.ctp:29
+#: View/Perspectivecascadings/view.ctp:2
+#: View/Perspectives/view.ctp:2
+msgid "Perspective"
+msgstr ""
+
+#: View/Objectivecascading/view.ctp:49
+#: View/Objectives/view.ctp:49
+msgid "Delete Objective"
+msgstr ""
+
+#: View/Objectivecascading/view.ctp:135
+#: View/Objectives/view.ctp:135
+msgid "Related Initiatives"
+msgstr ""
+
+#: View/Offices/add.ctp:4
+msgid "Add Office"
+msgstr ""
+
+#: View/Offices/edit.ctp:4
+#: View/Offices/view.ctp:38
+msgid "Edit Office"
+msgstr ""
+
+#: View/Offices/view.ctp:29
+msgid "Reports To"
+msgstr ""
+
+#: View/Offices/view.ctp:39
+msgid "Delete Office"
+msgstr ""
+
+#: View/Periodlookups/add.ctp:5
+msgid "Add Periodlookup"
+msgstr ""
+
+#: View/Periodlookups/edit.ctp:5
+#: View/Periodlookups/view.ctp:38
+msgid "Edit Periodlookup"
+msgstr ""
+
+#: View/Periodlookups/view.ctp:39
+msgid "Delete Periodlookup"
+msgstr ""
+
+#: View/Periods/add.ctp:5
+msgid "Add Period"
+msgstr ""
+
+#: View/Periods/edit.ctp:5
+#: View/Periods/view.ctp:33
+msgid "Edit Period"
+msgstr ""
+
+#: View/Periods/view.ctp:34
+msgid "Delete Period"
+msgstr ""
+
+#: View/Periods/view.ctp:112
+msgid "Related Periodlookups"
+msgstr ""
+
+#: View/Perspectivecascadeds/add.ctp:8
+msgid "Add Perspectivecascaded"
+msgstr ""
+
+#: View/Perspectivecascadeds/edit.ctp:9
+#: View/Perspectivecascadeds/view.ctp:43
+msgid "Edit Perspectivecascaded"
+msgstr ""
+
+#: View/Perspectivecascadeds/view.ctp:2
+msgid "Perspectivecascaded"
+msgstr ""
+
+#: View/Perspectivecascadeds/view.ctp:44
+msgid "Delete Perspectivecascaded"
+msgstr ""
+
+#: View/Perspectivecascadeds/view.ctp:45
+msgid "List Perspectivecascadeds"
+msgstr ""
+
+#: View/Perspectivecascadeds/view.ctp:46
+msgid "New Perspectivecascaded"
+msgstr ""
+
+#: View/Perspectivecascadings/add.ctp:5
+msgid "Add Perspectivecascading"
+msgstr ""
+
+#: View/Perspectivecascadings/edit.ctp:4
+msgid "Edit Perspectivecascading"
+msgstr ""
+
+#: View/Perspectivecascadings/view.ctp:38
+#: View/Perspectives/view.ctp:38
+msgid "Edit Perspective"
+msgstr ""
+
+#: View/Perspectivecascadings/view.ctp:39
+#: View/Perspectives/view.ctp:39
+msgid "Delete Perspective"
+msgstr ""
+
+#: View/Perspectivecascadings/view.ctp:47
+#: View/Perspectives/view.ctp:47
+msgid "Related Objectives"
+msgstr ""
+
+#: View/Perspectivecascadings/view.ctp:58
+#: View/Perspectives/view.ctp:58
+msgid "Perspective Id"
+msgstr ""
+
+#: View/Perspectives/add.ctp:6
+#: View/Perspectives/edit.ctp:6
+msgid "Add Perspective"
+msgstr ""
+
+#: View/Subactivities/add.ctp:3;7
+#: View/Subactivities/edit.ctp:3;7
+msgid "Add Subactivity"
+msgstr ""
+
+#: View/Subactivities/index.ctp:4
+msgid "Subactivities"
+msgstr ""
+
+#: View/Subactivities/view.ctp:2
+#: View/Subactivityweaks/view.ctp:29
+msgid "Subactivity"
+msgstr ""
+
+#: View/Subactivities/view.ctp:29
+msgid "Plan Year"
+msgstr ""
+
+#: View/Subactivities/view.ctp:34
+msgid "Month"
+msgstr ""
+
+#: View/Subactivities/view.ctp:39
+msgid "Week"
+msgstr ""
+
+#: View/Subactivities/view.ctp:44
+msgid "Sub Activity"
+msgstr ""
+
+#: View/Subactivities/view.ctp:49
+msgid "Is Approved"
+msgstr ""
+
+#: View/Subactivities/view.ctp:63
+msgid "Edit Subactivity"
+msgstr ""
+
+#: View/Subactivities/view.ctp:64
+msgid "Delete Subactivity"
+msgstr ""
+
+#: View/Subactivities/view.ctp:65
+#: View/Subactivityweaks/edit.ctp:18
+#: View/Subactivityweaks/index.ctp:63
+#: View/Subactivityweaks/view.ctp:42
+msgid "List Subactivities"
+msgstr ""
+
+#: View/Subactivities/view.ctp:66
+#: View/Subactivityweaks/edit.ctp:19
+#: View/Subactivityweaks/index.ctp:64
+#: View/Subactivityweaks/view.ctp:43
+msgid "New Subactivity"
+msgstr ""
+
+#: View/Subactivities/view.ctp:69
+#: View/Subactivityweaks/edit.ctp:17
+#: View/Subactivityweaks/view.ctp:40
+msgid "List Subactivityweaks"
+msgstr ""
+
+#: View/Subactivities/view.ctp:70;113
+#: View/Subactivityweaks/index.ctp:62
+#: View/Subactivityweaks/view.ctp:41
+msgid "New Subactivityweak"
+msgstr ""
+
+#: View/Subactivities/view.ctp:74
+msgid "Related Subactivityweaks"
+msgstr ""
+
+#: View/Subactivities/view.ctp:79
+#: View/Subactivityweaks/view.ctp:9
+msgid "Subactivitydone"
+msgstr ""
+
+#: View/Subactivities/view.ctp:82
+#: View/Subactivityweaks/view.ctp:24
+msgid "Remark"
+msgstr ""
+
+#: View/Subactivities/view.ctp:83
+msgid "Subactivity Id"
+msgstr ""
+
+#: View/Subactivityweaks/add.ctp:4
+msgid "Add Subactivityweak"
+msgstr ""
+
+#: View/Subactivityweaks/edit.ctp:4
+#: View/Subactivityweaks/view.ctp:38
+msgid "Edit Subactivityweak"
+msgstr ""
+
+#: View/Subactivityweaks/index.ctp:2
+msgid "Subactivityweaks"
+msgstr ""
+
+#: View/Subactivityweaks/view.ctp:2
+msgid "Subactivityweak"
+msgstr ""
+
+#: View/Subactivityweaks/view.ctp:39
+msgid "Delete Subactivityweak"
+msgstr ""
+
+#: View/Themes/add.ctp:6
+#: View/Themes/edit.ctp:6
+msgid "Add Theme"
+msgstr ""
+
+#: View/Themes/view.ctp:2
+msgid "Theme"
+msgstr ""
+
+#: View/Themes/view.ctp:19
+#: View/Universities/view.ctp:2
+#: View/Values/view.ctp:19
+msgid "University"
+msgstr ""
+
+#: View/Themes/view.ctp:33
+msgid "Edit Theme"
+msgstr ""
+
+#: View/Themes/view.ctp:34
+msgid "Delete Theme"
+msgstr ""
+
+#: View/Themes/view.ctp:35
+#: View/Universities/view.ctp:52
+msgid "List Themes"
+msgstr ""
+
+#: View/Themes/view.ctp:36
+#: View/Universities/view.ctp:53;96
+msgid "New Theme"
+msgstr ""
+
+#: View/Themes/view.ctp:37
+#: View/Universities/view.ctp:50
+#: View/Values/view.ctp:37
+msgid "List Universities"
+msgstr ""
+
+#: View/Themes/view.ctp:38
+#: View/Universities/view.ctp:51
+#: View/Values/view.ctp:38
+msgid "New University"
+msgstr ""
+
+#: View/Thresholds/add.ctp:6
+#: View/Thresholds/edit.ctp:6
+msgid "Add Threshold"
+msgstr ""
+
+#: View/Thresholds/view.ctp:2
+msgid "Threshold"
+msgstr ""
+
+#: View/Thresholds/view.ctp:53
+msgid "Edit Threshold"
+msgstr ""
+
+#: View/Thresholds/view.ctp:54
+msgid "Delete Threshold"
+msgstr ""
+
+#: View/Universities/add.ctp:2;6
+#: View/Universities/edit.ctp:3;7
+msgid "Add University"
+msgstr ""
+
+#: View/Universities/view.ctp:24
+msgid "Mission"
+msgstr ""
+
+#: View/Universities/view.ctp:29
+msgid "Vision"
+msgstr ""
+
+#: View/Universities/view.ctp:34
+msgid "Logo"
+msgstr ""
+
+#: View/Universities/view.ctp:39
+msgid "Motto"
+msgstr ""
+
+#: View/Universities/view.ctp:48
+msgid "Edit University"
+msgstr ""
+
+#: View/Universities/view.ctp:49
+msgid "Delete University"
+msgstr ""
+
+#: View/Universities/view.ctp:54
+#: View/Values/view.ctp:35
+msgid "List Values"
+msgstr ""
+
+#: View/Universities/view.ctp:55;138
+#: View/Values/view.ctp:36
+msgid "New Value"
+msgstr ""
+
+#: View/Universities/view.ctp:59
+msgid "Related Themes"
+msgstr ""
+
+#: View/Universities/view.ctp:66;108
+msgid "University Id"
+msgstr ""
+
+#: View/Universities/view.ctp:101
+msgid "Related Values"
+msgstr ""
+
+#: View/Values/add.ctp:3
+#: View/Values/edit.ctp:3
+msgid "Add Values"
+msgstr ""
+
+#: View/Values/add.ctp:7
+#: View/Values/edit.ctp:7
+msgid "Add Value"
+msgstr ""
+
+#: View/Values/view.ctp:2
+msgid "Value"
+msgstr ""
+
+#: View/Values/view.ctp:33
+msgid "Edit Value"
+msgstr ""
+
+#: View/Values/view.ctp:34
+msgid "Delete Value"
+msgstr ""
+

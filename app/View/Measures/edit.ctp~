@@ -1,0 +1,36 @@
+<h2><?php echo __('Edit Measure'); ?></h2>
+<?php echo $this->Form->create('Measure'); ?>
+	
+	<?php echo $this->Form->input('id'); ?>
+	<table>
+		<tr><td colspan=3><?php echo $this->Form->input('objective_id');?></td> </tr>
+	<tr><td colspan=2> <?php echo $this->Form->input('measure_name'); ?></td>
+                <td><?php echo $this->Form->input('unit_id'); ?> </td> <td> <?php echo $this->Form->input('frequency_id'); ?></td> </tr>
+                
+		<tr><td colspan=2> <?php echo $this->Form->input('description',array('rows'=>'3')); ?></td> <td> <?php echo $this->Form->input('measure_type',array('rows'=>'3')); ?></td> <td> <?php echo $this->Form->input('measure_weight'); ?></td></tr>
+		<tr><td> <?php echo $this->Form->input('formula',array('rows'=>'3')); ?></td> <td><?php echo $this->Form->input('polarity',array('rows'=>'3')); ?> </td> <td colspan=2> <?php echo $this->Form->input('data_source',array('rows'=>'3')); ?></td>  </tr>
+		<tr> <td> <?php echo $this->Form->input('data_quality',array('rows'=>'3')); ?></td> <td  colspan=2> <?php echo $this->Form->input('data_collector',array('rows'=>'3'));  ?></td> <td> <?php echo $this->Form->input('baseline');  ?></td></tr>
+		<tr><td colspan=4><?php echo $this->Form->input('rationalie',array('rows'=>'3')); ?></td> </tr>
+		<tr><td class="actions" colspan="8"> <?php echo $this->Form->end(__('Submit')); ?> <?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $this->Form->value('Measure.id')), null, __('Are you sure you want to delete # %s?', $this->Form->value('Measure.id'))); ?>
+		<?php echo $this->Html->link(__('List Measures'), array('action' => 'index')); ?></td> </tr>
+	
+	
+<tr><td > 
+	<h3><?php echo __('Actions'); ?></h3>
+	
+
+		
+		<?php echo $this->Html->link(__('List Objectives'), array('controller' => 'objectives', 'action' => 'index')); ?>
+		<?php echo $this->Html->link(__('New Objective'), array('controller' => 'objectives', 'action' => 'add')); ?> 
+		<?php echo $this->Html->link(__('List Units'), array('controller' => 'units', 'action' => 'index')); ?> 
+		<?php echo $this->Html->link(__('New Unit'), array('controller' => 'units', 'action' => 'add')); ?> 
+		<?php echo $this->Html->link(__('List Frequencies'), array('controller' => 'frequencies', 'action' => 'index')); ?>
+		<?php echo $this->Html->link(__('New Frequency'), array('controller' => 'frequencies', 'action' => 'add')); ?> 
+		<?php echo $this->Html->link(__('List Thresholds'), array('controller' => 'thresholds', 'action' => 'index')); ?> 
+		<?php echo $this->Html->link(__('New Threshold'), array('controller' => 'thresholds', 'action' => 'add')); ?> 
+		<?php echo $this->Html->link(__('List Majoractivities'), array('controller' => 'majoractivities', 'action' => 'index')); ?> 
+		<?php echo $this->Html->link(__('New Majoractivity'), array('controller' => 'majoractivities', 'action' => 'add')); ?> 
+		<?php echo $this->Html->link(__('List Targets'), array('controller' => 'targets', 'action' => 'index')); ?> 
+		<?php echo $this->Html->link(__('New Target'), array('controller' => 'targets', 'action' => 'add')); ?> 
+	
+</table>

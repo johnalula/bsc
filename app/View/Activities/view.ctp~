@@ -1,0 +1,46 @@
+<div class="acts view">
+<h2><?php  echo __('Act'); ?></h2>
+	<dl>
+		<dt><?php echo __('Id'); ?></dt>
+		<dd>
+			<?php echo h($act['Activity']['id']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Perspective'); ?></dt>
+		<dd>
+			<?php echo $this->Html->link($act['Perspective']['perspective_name'], array('controller' => 'perspectives', 'action' => 'view', $act['Perspective']['id'])); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Activity'); ?></dt>
+		<dd>
+			<?php echo h($act['Activity']['activity']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Weight'); ?></dt>
+		<dd>
+			<?php echo h($act['Act']['weight']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Ways Of Evaluation'); ?></dt>
+		<dd>
+			<?php echo h($act['Act']['ways_of_evaluation']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Precondition From Office'); ?></dt>
+		<dd>
+			<?php echo h($act['Act']['precondition_from_office']); ?>
+			&nbsp;
+		</dd>
+	</dl>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+		<li><?php echo $this->Html->link(__('Edit Act'), array('action' => 'edit', $act['Act']['id'])); ?> </li>
+		<li><?php echo $this->Form->postLink(__('Delete Act'), array('action' => 'delete', $act['Act']['id']), null, __('Are you sure you want to delete # %s?', $act['Act']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('List Acts'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Act'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Perspectives'), array('controller' => 'perspectives', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Perspective'), array('controller' => 'perspectives', 'action' => 'add')); ?> </li>
+	</ul>
+</div>

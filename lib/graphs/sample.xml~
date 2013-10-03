@@ -1,0 +1,30 @@
+<chart>
+<chart_type>3D column</chart_type>
+   <chart_data>
+      <row>
+         <null/>
+         <string>Q1</string>
+         
+      </row>
+      <row>
+         <string>Perspective:Finance</string>
+         <number>55</number>
+        
+      </row>
+      <row>
+         <string>Perspective:IBP</string>   
+         <number>10</number>
+        
+      </row>
+      <row>
+         <string>Perspective:Customer</string>
+         <number>56</number>
+        
+      </row>
+      <row>
+         <string>Perspective:L and G</string>
+         <number>56</number>
+        
+      </row>
+   </chart_data>
+</chart>

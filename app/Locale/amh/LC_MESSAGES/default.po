@@ -1,0 +1,720 @@
+#: Controller/UniversitiesController.php:14
+msgid "Invalid University"
+msgstr "ዩኒቨርስቲው አልተመዘገበም"
+
+msgid "Organization Settings"
+msgstr "የተቓሙ ማስተካከያ"
+
+msgid "BSC Settings"
+msgstr "የቢኤስሲ ማስተካከያ"
+
+msgid "User Settings"
+msgstr "የተገልጋይ ማስተካከያ"
+
+msgid "Other Settings"
+msgstr "የተለያዩ ማስተካከያ"
+
+msgid "Plan"
+msgstr "አቅድ"
+
+msgid "Report"
+msgstr "ሪፖርት"
+
+msgid "Activity Name"
+msgstr "ተግባር"
+
+msgid "In"
+msgstr "ተግባር"
+
+msgid "In Time"
+msgstr "በጊዜ"
+
+msgid "In Quality"
+msgstr "በጭራት"
+
+msgid "In Quntity"
+msgstr "በብዛት"
+
+msgid "In Cost"
+msgstr "በዋጋ"
+
+msgid "Values"
+msgstr "ትርጉም"
+
+msgid "Activity Weight"
+msgstr "ተግባሩ ክብደት"
+
+msgid "Sub Activity"
+msgstr "ዝርዝር  ተግባራት"
+
+msgid "Approval"
+msgstr "ማረጋገጫ"
+
+msgid "Predefined Report"
+msgstr "የታወቀ ሪፓርት"
+
+msgid "Dynamic Report"
+msgstr "ተቀያያሪ ሪፖርት"
+
+msgid "graph"
+msgstr "ግራፍ"
+
+msgid "Theme"
+msgstr "የትኩረት መስክ"
+msgid "Stategic Theme"
+msgstr "የትኩረት መስክ"
+
+msgid "Perspective"
+msgstr "አይታ"
+
+msgid "Objective"
+msgstr "ግብ"
+
+msgid "Measure"
+msgstr "መለኪያ"
+
+msgid "Initiative"
+msgstr "መ"
+
+msgid "Measuring Units"
+msgstr "የመለኪያ አሀድ"
+
+msgid "Frequency"
+msgstr "ጊዜ"
+
+msgid "Period"
+msgstr "ክፍለ ጊዜ"
+
+msgid "Description"
+msgstr "ዝርዝር"
+
+msgid "Result"
+msgstr "ውጨት"
+
+msgid "Actions"
+msgstr "ጨቁን"
+
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "ግስ {:page} ከ {:pages}  ከአጨቃላይ  {:count} ሪከርዶች አሁን አየታዩ ያሉት {:current} ናቸው  ።  ከ {:start}ኛው  ላይ ጀምረው  {:end}ኛው ላይ  ያበቃሉ ።"
+#: Controller/UniversitiesController.php:24;39
+msgid "The University has been saved"
+msgstr "ዩኒቨርስቲው በትክክል ተመዝግቧል"
+
+#: Controller/UniversitiesController.php:27;42
+msgid "The University could not be saved. Please, try again."
+msgstr "ዩኒቨርስቲው አልተመዘገበም እባክዎትን ደግመው በትክክል ይመዝግቡ"
+
+#: Controller/UniversitiesController.php:34
+msgid "Invalid University"
+msgstr "ዩኒቨርስቲው አልተመዘገበም"
+
+#: Controller/UniversitiesController.php:52
+msgid "Invalid id for University"
+msgstr "ዩኒቨርስቲው መለያ ቁጥር አልተመዘገበም"
+
+#: Controller/UniversitiesController.php:56
+msgid "University deleted"
+msgstr "ዩኒቨርስቲውን አጥፋ"
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:45
+msgid "The group is successfully added"
+msgstr "ቡድኑ በትክክል ተመዝግቧል"
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:63
+msgid "The group is successfully updated"
+msgstr "የቡድኑ መረጃ በትክክል ተሻሽሏል"
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:85
+msgid "Sorry some users are associated with this group, You cannot delete"
+msgstr "ይቅርታ የቡድኑ መረጃ ከዚህ ጋር ተያያዠነት ስላለው ማጥፋት አይችሉም"
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:89
+msgid "Group is successfully deleted"
+msgstr "የቡድኑ መረጃ በትክክል ተመዝግቧል "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:94;130
+msgid "Incorrect Email/Username or Password"
+msgstr "ያስገቡት ቃል የተሳሳተ ስለሆነ እባክዎትን እንደገና በትክክል ይመዝግቡ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:100
+msgid "Sorry your account is not active, please contact to Administrator"
+msgstr "አድራሻዎ በማጠራቀሚያው ውስጥ አልተመዘገበም፤ እባክዎትን ባለሙያውን ያነጋግሩ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:105
+msgid "Your registration has not been confirmed please verify your email or contact to Administrator"
+msgstr "የተመዘገቡትን አካውንት ለመጠቀም እባክዎትን ከኢሜይል አድራሻዎ በመግባት ያረጋግጡ(ባለሙያውን ያነጋግሩ)"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:144
+msgid "You are successfully signed out"
+msgstr "በትክክል ዘግተው ወጥተዋል"
+
+#: office
+msgid "Office"
+msgstr "ቢሮ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:170
+msgid "Please select correct register as"
+msgstr "እባክዎትን በትክክል መመዝገቡዎን ያረጋግጡ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:198
+msgid "Please check your mail and confirm your registration"
+msgstr "የተመዘገቡትን አካውንት ለመጠቀም እባክዎትን ከኢሜይል አድራሻዎ በመግባት ያረጋግጡ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:204
+msgid "Sorry new registration is currently disabled, please try again later"
+msgstr "በተደጋጋሚ በመሞከርዎ ምዝገባዎ ተቋርጧል እባክዎትን ቆይተው ይሞክሩ "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:226
+msgid "Password changed successfully"
+msgstr "የይለፍ ቃልዎ በትክክል ተቀይሯል"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:252
+msgid "Password for %s changed successfully"
+msgstr "የይለፍ ቃልዎ በትክክል ተቀይሯል"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:278
+msgid "The user is successfully added"
+msgstr "ተጠቃሚው በትክክል ተመዝግቧል"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:298
+msgid "The user is successfully updated"
+msgstr "የተጠቃሚው መረጃ በትክክል ተሸሽሏል "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:325
+msgid "User is successfully deleted"
+msgstr "ተጠቃሚው ተሰርዟል "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:359
+msgid "User is successfully activated"
+msgstr "ተጠቃሚው በትክክል መመዝገቡን አረጋግጧል"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:361
+msgid "User is successfully deactivated"
+msgstr "ተጠቃሚው እንዳይገለገል ተደርጓል"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:379
+msgid "User email is successfully verified"
+msgstr "የተጠቃሚው የኢሜይል ማረጋገጫ ትክክል ነው! "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:413
+msgid "Thank you, your account is activated now"
+msgstr "እናመሰግናለን አገልግሎቱ አሁን ክፍት ነው"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:416
+msgid "Thank you, your account is already activated"
+msgstr "እናመሰግናለን አገልግሎቱ አሁን ክፍት ነው መጠቀም ይችላሉ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:419;422
+msgid "Sorry something went wrong, please click on the link again"
+msgstr "ይቅርታ አጠቃቀምዎ ችግር ይታይበታል እባክዎትን ከታች ያለውን ሊንክ ይጫኑ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:441;515
+msgid "Incorrect Email/Username"
+msgstr "የተሳሳተ ኢሜይል/የይለፍ ቃል ተጠቅመዋል "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:447
+msgid "Your registration has not been confirmed yet please verify your email before reset password"
+msgstr "ምዝገባዎ እስከ አሁን አልተረጋገጠም እባክዎትን የይለፍ ቃል ከመቀይረዎ በፊት የኢሜይል መልእክትዎን በመክፈት ያረጋግጡ "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:451
+msgid "Please check your mail for reset your password"
+msgstr "የኢሜይል መልእክትዎን በመክፈት የይለፍ ቃልዎን ያረጋግጡ "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:481
+msgid "Your password has been reset successfully"
+msgstr "የይለፍ ቃልዎ በትክክል ተቀይሯል"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:484
+msgid "Something went wrong, please send password reset link again"
+msgstr "ይቅርታ አጠቃቀምዎ ችግር ይታይበታል እባክዎትን ከታች ያለውን ሊንክ በመጫን እንደገና ያስተካክሉ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:487;491
+msgid "Something went wrong, please click again on the link in email"
+msgstr "ይቅርታ አጠቃቀምዎ ችግር ይታይበታል እባክዎትን ከታች ያለውን ሊንክ በመጫን እንደገና ያስተካክሉ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:521
+msgid "Please check your mail to verify your email"
+msgstr "የኢሜይል መልእክትዎን በመክፈት የይለፍ ቃልዎን ያረጋግጡ"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:523
+msgid "Your email is already verified"
+msgstr "የተጠቃሚው የኢሜይል ማረጋገጫ ትክክል ነው"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:22
+#: Plugin/Usermgmt/View/Users/access_denied.ctp:34
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:28
+msgid "Dashboard"
+msgstr "የፊትለፊት ገጽ"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:24
+#: Plugin/Usermgmt/View/Users/add_user.ctp:28;75
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:38
+msgid "Add User"
+msgstr "ተጠቃሚውን ያስገቡ"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:25
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:39
+#: Plugin/Usermgmt/View/Users/index.ctp:28
+msgid "All Users"
+msgstr "አጠቃላይ ተጠቃሚ "
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:26
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:28;57
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:40
+msgid "Add Group"
+msgstr "አጠቃላይ ቡድን"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:27
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:28
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:41
+msgid "All Groups"
+msgstr "አጠቃላይ ቡድኖች"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:28
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:42
+msgid "Permissions"
+msgstr "ፈቃድ"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:29;32
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:43;47
+msgid "Profile"
+msgstr "አጠቃላይ መረጃ"
+
+msgid "MY Profile"
+msgstr "የኔ መረጃ"
+
+msgid "Chenge Profile"
+msgstr "መረጃዬን ቀይር"
+
+msgid "Chenge Password"
+msgstr "የይለፍ ቃል ቀይር"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:30
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:44
+msgid "Edit Profile"
+msgstr "አጠቃላይ መረጃውን ያስተካክሉ"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:34
+#: Plugin/Usermgmt/View/Users/change_password.ctp:28
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:46
+msgid "Change Password"
+msgstr "የይለፍ ቃል ይቀይሩ"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:35
+msgid "Sign Out"
+msgstr "ዘግተህ ውጣ"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:29
+msgid "User Group Permissions"
+msgstr "አጠቃላይ ቡድን ፈቃድ "
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:31
+msgid "Select Controller"
+msgstr "ምረጥ"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:43
+msgid "Controller"
+msgstr ""
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:44
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:42
+#: Plugin/Usermgmt/View/Users/index.ctp:45
+msgid "Action"
+msgstr ""
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:45
+msgid "Permission"
+msgstr "ፈቃድ"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:46
+msgid "Operation"
+msgstr "ስራ"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:29
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:29
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:29
+#: Plugin/Usermgmt/View/Users/access_denied.ctp:28
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:28
+#: Plugin/Usermgmt/View/Users/add_user.ctp:29
+#: Plugin/Usermgmt/View/Users/change_password.ctp:29
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:29
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:29
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:29
+#: Plugin/Usermgmt/View/Users/email_verification.ctp:28
+#: Plugin/Usermgmt/View/Users/forgot_password.ctp:28
+#: Plugin/Usermgmt/View/Users/index.ctp:29
+#: Plugin/Usermgmt/View/Users/login.ctp:29
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:29
+#: Plugin/Usermgmt/View/Users/register.ctp:29
+#: Plugin/Usermgmt/View/Users/view_user.ctp:29
+#: View/Examples/index.ctp:5
+msgid "Home"
+msgstr "ቤት"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:36
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:37
+msgid "Group Name"
+msgstr "የቡድን ስም"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:42
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:43
+msgid "Alias Group Name"
+msgstr "የቡድን ቦታ ስም"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:51
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:49
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:40
+msgid "Allow Registration"
+msgstr "ምዝገባ ፍቀድ"
+
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:28
+msgid "Edit Group"
+msgstr "አስተካክል "
+
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:55
+msgid "Update Group"
+msgstr "አሻሽል "
+
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:37
+msgid "Group Id"
+msgstr "መለያ ቁጥር"
+
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:38
+#: Plugin/Usermgmt/View/Users/index.ctp:38
+#: View/Universities/view.ctp:19;67;109
+msgid "Name"
+msgstr "ስም"
+
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:39
+msgid "Alias Name"
+msgstr "የቀድሞ ስም"
+
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:41
+#: Plugin/Usermgmt/View/Users/index.ctp:44
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:84
+#: Plugin/Usermgmt/View/Users/view_user.ctp:86
+#: View/Universities/view.ctp:9;64;106
+msgid "Created"
+msgstr "ተፈጥሯል"
+
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:63
+#: Plugin/Usermgmt/View/Users/index.ctp:87
+#: View/Universities/edit.ctp:18
+#: View/Universities/index.ctp:57
+#: View/Universities/view.ctp:87;129
+msgid "Delete"
+msgstr "ተሰርዟል"
+
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:63
+msgid "Are you sure you want to delete this group? Delete it your own risk"
+msgstr ""
+
+#: Plugin/Usermgmt/View/Users/access_denied.ctp:27
+msgid "Access Denied"
+msgstr "ተከልክሏል"
+
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:27
+msgid "Reset Password"
+msgstr "እንደገና ያስገቡ"
+
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:36
+#: Plugin/Usermgmt/View/Users/add_user.ctp:64
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:37
+#: Plugin/Usermgmt/View/Users/login.ctp:42
+#: Plugin/Usermgmt/View/Users/register.ctp:64
+msgid "Password"
+msgstr "የይለፍ ቃል"
+
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:41
+#: Plugin/Usermgmt/View/Users/add_user.ctp:69
+#: Plugin/Usermgmt/View/Users/change_password.ctp:47
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:42
+#: Plugin/Usermgmt/View/Users/register.ctp:69
+msgid "Confirm Password"
+msgstr "የይለፍ ቃሉን ያረጋግጡ"
+
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:56
+msgid "Reset"
+msgstr "እንደገና ያስገቡ"
+
+#: Plugin/Usermgmt/View/Users/add_user.ctp:38
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:39
+#: Plugin/Usermgmt/View/Users/index.ctp:41
+#: Plugin/Usermgmt/View/Users/register.ctp:38
+msgid "Group"
+msgstr "ቡድን"
+
+#: Plugin/Usermgmt/View/Users/add_user.ctp:44
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:45
+#: Plugin/Usermgmt/View/Users/index.ctp:39
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:46
+#: Plugin/Usermgmt/View/Users/register.ctp:44
+#: Plugin/Usermgmt/View/Users/view_user.ctp:46
+msgid "Username"
+msgstr "የመጠቀሚያ ስም"
+
+#: Plugin/Usermgmt/View/Users/add_user.ctp:49
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:50
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:50
+#: Plugin/Usermgmt/View/Users/register.ctp:49
+#: Plugin/Usermgmt/View/Users/view_user.ctp:50
+msgid "First Name"
+msgstr "የመጀመሪያ ስም"
+
+#: Plugin/Usermgmt/View/Users/add_user.ctp:54
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:55
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:54
+#: Plugin/Usermgmt/View/Users/register.ctp:54
+#: Plugin/Usermgmt/View/Users/view_user.ctp:54
+msgid "Last Name"
+msgstr "የአያት ስም"
+
+#: Plugin/Usermgmt/View/Users/add_user.ctp:59
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:60
+#: Plugin/Usermgmt/View/Users/index.ctp:40
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:58
+#: Plugin/Usermgmt/View/Users/register.ctp:59
+#: Plugin/Usermgmt/View/Users/view_user.ctp:58
+msgid "Email"
+msgstr "ኢሜይል "
+
+#: Plugin/Usermgmt/View/Users/change_password.ctp:37
+msgid "Old Password"
+msgstr "የይለፍ ቃል"
+
+#: Plugin/Usermgmt/View/Users/change_password.ctp:42
+msgid "New Password"
+msgstr "አዲስ የይለፍ ቃል"
+
+#: Plugin/Usermgmt/View/Users/change_password.ctp:53
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:48
+msgid "Change"
+msgstr "ቀይር"
+
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:28
+msgid "Change Password for "
+msgstr "የይለፍ ቃል ቀይር"
+
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:28
+msgid "Edit User"
+msgstr "አስተካክል"
+
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:66
+msgid "Update User"
+msgstr "አሻሽል"
+
+#: Plugin/Usermgmt/View/Users/email_verification.ctp:27
+#: Plugin/Usermgmt/View/Users/login.ctp:61
+msgid "Email Verification"
+msgstr "ኢሜል ከፍተህ አረጋግጥ"
+
+#: Plugin/Usermgmt/View/Users/email_verification.ctp:35
+#: Plugin/Usermgmt/View/Users/forgot_password.ctp:36
+msgid "Enter Email / Username"
+msgstr "ኢሜል /ስም"
+
+#: Plugin/Usermgmt/View/Users/email_verification.ctp:41
+#: Plugin/Usermgmt/View/Users/forgot_password.ctp:42
+msgid "Send Email"
+msgstr "ኢሜል ላክ"
+
+#: Plugin/Usermgmt/View/Users/forgot_password.ctp:27
+msgid "Forgot Password"
+msgstr "የይለፍ ቃል ተረስቷል"
+
+#: Plugin/Usermgmt/View/Users/index.ctp:37
+msgid "SL"
+msgstr ""
+
+#: Plugin/Usermgmt/View/Users/index.ctp:42
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:62
+#: Plugin/Usermgmt/View/Users/view_user.ctp:62
+msgid "Email Verified"
+msgstr "ኢሜል ተረጋግጧል "
+
+#: Plugin/Usermgmt/View/Users/index.ctp:43
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:73
+#: Plugin/Usermgmt/View/Users/view_user.ctp:72
+msgid "Status"
+msgstr "ይዞታው"
+
+#: Plugin/Usermgmt/View/Users/index.ctp:87
+msgid "Are you sure you want to delete this user?"
+msgstr "በትክክል ማጥፋት ይፈልጋሉ?"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:27
+msgid "Sign In or  "
+msgstr "ይለፍ"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:28
+msgid "Register"
+msgstr "ይመዝገቡ"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:37
+msgid "Email / Username"
+msgstr "ኢሜይል/መጠቀሚያ ስም"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:50
+msgid "Remember me"
+msgstr "እንዳትረሳ"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:56
+#: Plugin/Usermgmt/View/Users/register.ctp:28
+msgid "Sign In"
+msgstr "ይለፍ"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:60
+msgid "Forgot Password?"
+msgstr "የይለፍ ቃሉን ረሱ?"
+
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:28
+msgid "My Profile"
+msgstr "አጠቃላይ መረጃ"
+
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:38
+#: Plugin/Usermgmt/View/Users/view_user.ctp:38
+msgid "User Id"
+msgstr "መጠቀሚያ ቁጥር"
+
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:42
+#: Plugin/Usermgmt/View/Users/view_user.ctp:42
+msgid "User Group"
+msgstr "ቡድን"
+
+#: Plugin/Usermgmt/View/Users/register.ctp:27
+msgid "Register or "
+msgstr "ተመዝግበዋል?"
+
+#: Plugin/Usermgmt/View/Users/register.ctp:81
+msgid "Sign Up"
+msgstr "ይመዝገቡ"
+
+#: Plugin/Usermgmt/View/Users/view_user.ctp:28
+msgid "User Detail"
+msgstr "የተጠቃሚው መረጃ"
+
+#: Plugin/Usermgmt/View/Users/view_user.ctp:82
+msgid "Ip Address"
+msgstr ""
+
+#: View/Universities/edit.ctp:4
+#: View/Universities/view.ctp:48
+msgid "Edit University"
+msgstr "ዩኒቨርስቲውን ያስተካክሉ"
+
+#: View/Universities/edit.ctp:18
+#: View/Universities/index.ctp:57
+#: View/Universities/view.ctp:49;87;129
+msgid "Are you sure you want to delete # %s?"
+msgstr "እርግጠኛ ነዎት? ማጥፋት ይፈልጋሉ?"
+
+#: View/Universities/edit.ctp:19
+#: View/Universities/view.ctp:50
+msgid "List Universities"
+msgstr "ዩኒቨርስቲዎችን ይዘርዝሩ"
+
+#: View/Universities/edit.ctp:20
+#: View/Universities/index.ctp:71
+#: View/Universities/view.ctp:52
+msgid "List Themes"
+msgstr "የትኩረት መስኩን ይዘርዝሩ"
+
+#: View/Universities/edit.ctp:21
+#: View/Universities/index.ctp:72
+#: View/Universities/view.ctp:53;96
+msgid "New Theme"
+msgstr "አዲስ ትኩረት "
+
+#: View/Universities/edit.ctp:22
+#: View/Universities/index.ctp:73
+#: View/Universities/view.ctp:54
+msgid "List Values"
+msgstr "እሴቶችን ያሳዩ"
+
+#: View/Universities/edit.ctp:23
+#: View/Universities/index.ctp:74
+#: View/Universities/view.ctp:55;138
+msgid "New Value"
+msgstr "አዳዲስ እሴቶችን "
+
+#: View/Universities/index.ctp:2
+msgid "Universities"
+msgstr "ዩኑቨርሲቲ"
+
+#: View/Universities/index.ctp:6
+msgid "Page %page% of %pages%, showing %current% records out of %count% total, starting on record %start%, ending on %end%"
+msgstr ""
+
+#: View/Universities/index.ctp:19
+#: View/Universities/view.ctp:68;110
+msgid "Actions"
+msgstr ""
+
+#: View/Universities/index.ctp:55
+#: View/Universities/view.ctp:85;127
+msgid "View"
+msgstr "ምልከታ"
+
+#: View/Universities/index.ctp:56
+#: View/Universities/view.ctp:86;128
+msgid "Edit"
+msgstr "ማስተካከያ"
+
+#: View/Universities/index.ctp:64
+msgid "previous"
+msgstr "የቀድሞው"
+
+#: View/Universities/index.ctp:66
+msgid "next"
+msgstr "ቀጣይ"
+
+#: View/Universities/index.ctp:70
+#: View/Universities/view.ctp:51
+msgid "New University"
+msgstr "አዲስ የኒቨርስቲ"
+
+#: View/Universities/view.ctp:2
+msgid "University"
+msgstr "የኒቨርስቲ"
+
+#: View/Universities/view.ctp:4;63;105
+msgid "Id"
+msgstr "መለያ"
+
+#: View/Universities/view.ctp:14;65;107
+msgid "Modified"
+msgstr "ተስተካክሏል"
+
+#: View/Universities/view.ctp:24
+msgid "Mission"
+msgstr "ተልእኮ"
+
+#: View/Universities/view.ctp:29
+msgid "Vision"
+msgstr "ራእይ"
+
+#: View/Universities/view.ctp:34
+msgid "Logo"
+msgstr "ኣርማ"
+
+#: View/Universities/view.ctp:39
+msgid "Motto"
+msgstr "ፉከራ"
+
+#: View/Universities/view.ctp:49
+msgid "Delete University"
+msgstr "ዩኒቨርስቲውን አጥፋ"
+
+#: View/Universities/view.ctp:59
+msgid "Related Themes"
+msgstr "ተያያዠ ምልከታ"
+
+#: View/Universities/view.ctp:66;108
+msgid "University Id"
+msgstr "ዩኒቨርስቲው መለያ"
+
+#: View/Universities/view.ctp:101
+msgid "Related Values"
+msgstr "ተያያዠ ዋጋ"
+
+

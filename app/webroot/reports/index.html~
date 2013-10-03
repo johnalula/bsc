@@ -1,0 +1,50 @@
+<html>
+<body>
+<!-- Report Type
+   1. Predefined
+   	- Individual level
+   	- Office level
+   	- Corporate level
+   2. Custom
+   	- Done!
+-->
+<form name = "test" action = "Scorecard_Report.xls" method="post">
+Report Type: 
+  <select type="text" name = "txtReportType">
+	<option value = "Weekly">Weekly</opiton>
+	<option value = "Monthly">Monthly</option>
+	<option value = "Quarterly">Quarterly</option>
+	<option value = "Biannually">Biannually</option>
+	<option value = "Annually">Annually</option>
+  </select><br>
+
+Office: 
+  <select type="text" name = "txtOffice">
+	<option value = "Office1">Office 1</opiton>
+	<option value = "Office2">Office 2</option>
+	<option value = "Office3">Office 3</option>
+	<option value = "Office4">Office 4</option>
+	<option value = "Office5">Office 5</option>
+  </select><br>
+Year: 
+  <select type="text" name = "txtYear">
+	<option value = "2005">2005</>
+	<option value = "2006">2006</>
+	<option value = "2007">2007</>
+  </select><br>
+Period: 
+<!-- if ReportType=monthly, then list months,
+     if ReportType=quarterly, then list quarters,
+     if ReportType=Biannually, then list biannuals,
+     if ReprotType=Annually, then list years
+-->
+ <select type="text" name = "txtPeriod"> 
+	<option value = "First Quarter">First Quarter</option>
+	<option value = "Second Quarter">Second Quarter</option>
+	<option value = "Third Quarter">Third Quarter</option>
+	<option value = "Fourth Quarter">Fourth Quarter</option>
+</select><br>
+<input type="submit" value = "Generate Report" name = "btnSubmit">
+</form>
+</body>
+</html>

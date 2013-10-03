@@ -1,0 +1,24 @@
+<chart>
+<chart_type>3D column</chart_type>
+   <chart_data>
+      <row>
+         <null/>
+         <string>All perspectives</string>
+         
+      </row><row>
+         <string>Perspective:Finance</string>
+         <number>55</number>
+        </row><row>
+         <string>Perspective:Finance</string>
+         <number>55</number>
+        </row><row>
+         <string>Perspective:Finance</string>
+         <number>55</number>
+        </row><row>
+         <string>Perspective:Finance</string>
+         <number>55</number>
+        </row><row>
+         <string>Perspective:Finance</string>
+         <number>55</number>
+        </row></chart_data>
+</chart>

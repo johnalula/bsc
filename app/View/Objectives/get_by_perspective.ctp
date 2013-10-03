@@ -1,0 +1,4 @@
+<option value='empty'><?php echo 'select an objective'; ?></option>
+<?php foreach ($objectives as $key => $value): ?>
+<option value="<?php echo $key; ?>"><?php echo $value; ?></option>
+<?php endforeach; ?>

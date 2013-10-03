@@ -1,0 +1,36 @@
+<?php
+/*
+	This file is part of UserMgmt.
+
+	Author: Chetan Varshney (http://ektasoftwares.com)
+
+	UserMgmt is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+
+	UserMgmt is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+*/
+class UserMgmtAppController extends AppController {
+	public $components = array('Session');
+
+	public function beforeFilter() {
+            //$this->Auth->loginAction = array('controller' => 'users', 'action' => 'login', 'plugin' => true);
+		parent::beforeFilter();
+	}
+      /*public function isAuthorized($user) {
+           // Admin can access every action
+        if (isset($user['user_group_id']) && $user['user_group_id'] === 1) {
+           return true;
+         }
+           // Default deny
+         return false;
+       }*/
+
+}
